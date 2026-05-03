@@ -17,7 +17,7 @@ Keynote at PorterShed Spark, April 23 2026, Dexcom Stadium, Galway. I spoke abou
 
 Last Monday I gave a guest lecture to masters Computer Engineering students at a top Irish university.
 
-![](/images/2026/04/spark/slide-02.jpg)
+![](/images/2026/04/spark/slide-02.png)
 
 These are elite students, doing everything right. And they cannot get job interviews. That hasn't happened since the dot-com bust.
 
@@ -31,7 +31,7 @@ So what is actually happening? The first thing that changes is software developm
 
 ## What Is Actually Happening
 
-![](/images/2026/04/spark/slide-03.jpg)
+![](/images/2026/04/spark/slide-03.png)
 
 Software engineering is the canary in the coal mine. The industry that builds automation tools automated itself first.
 
@@ -75,7 +75,7 @@ The goalposts moved in January. They are not moving back.
 
 ## What It Does to Companies
 
-![](/images/2026/04/spark/slide-08.jpg)
+![](/images/2026/04/spark/slide-08.png)
 
 In our experience so far, the adoption pattern follows two phases.
 
