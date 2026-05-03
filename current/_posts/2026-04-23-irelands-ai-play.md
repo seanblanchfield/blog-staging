@@ -5,7 +5,7 @@ layout: post
 link: https://seanblanchfield.com/irelands-ai-play
 slug: irelands-ai-play
 title: Ireland's AI Play
-image: /images/2026/04/spark/slide-01.png
+image: /images/2026/04/spark/cover.jpg
 categories: [ai, ireland, talks]
 ---
 
