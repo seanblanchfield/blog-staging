@@ -2,7 +2,7 @@
 layout: post
 title: "What Do I Get to Own? (The Real Meaning of AI Sovereignty)"
 date: 2026-07-24
-categories: [ai, strategy, policy]
+categories: [current, ai, strategy, policy]
 excerpt: "AI sovereignty is being used to mean six different things simultaneously. But strip them back and they all reduce to the same question."
 draft: true
 ---
