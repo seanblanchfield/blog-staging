@@ -1,9 +1,9 @@
 ---
 layout: post
-title: AI Sovereignty: what do you get to own?
+title: "Five Shades of AI Sovereignty"
 date: 2026-07-24
 categories: [current, ai, strategy, policy]
-excerpt: "AI sovereignty is being used to mean six different things simultaneously. But strip them back and they all reduce to the same question."
+excerpt: "AI sovereignty is being used to mean six different things simultaneously. But strip them back and they all reduce to the same question: what do you get to own?"
 image: /images/2026/07/ai-sovereignty.png
 draft: true
 ---
