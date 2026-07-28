@@ -8,7 +8,9 @@ image: /images/2026/07/ai-sovereignty.png
 draft: true
 ---
 
-<lead>The phrase "AI sovereignty" is everywhere right now. To a CISO it means means one thing. To a graphic designer in Galway asking whether her livelihood is safe it means something different again. To a government minister in Paris, watching Washington pull the plug on a frontier model overnight, it means something much bigger. But they are all asking the same basic question: *what part of this future do we get to own?*</lead>
+The phrase "AI sovereignty" is everywhere right now. To a CISO it means means one thing. To a graphic designer in Galway asking whether her livelihood is safe it means something different again. To a government minister in Paris, watching Washington pull the plug on a frontier model overnight, it means something much bigger. But they are all asking the same basic question: *what part of this future do we get to own?*
+
+<!-- more -->
 
 In my role on the Irish government's AI Advisory Council, I took a special interest in AI sovereignty, and in my work as CEO of Jentic it is both a recurring conversation with our customers and a core value proposition of our company. AI sovereignty means different things to different people, with that one connective concern running through it all. The same conversation, at different scales. 
 
