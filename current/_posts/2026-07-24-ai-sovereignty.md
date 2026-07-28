@@ -37,7 +37,7 @@ AI accelerates this risk in ways that are easy to overlook.
 
 These challenges go beyond Ireland. Every minority culture and language faces the risk of a hegemony of AI-generated media regressing it to the mean of the training data, with the costs falling on the culture being erased.
 
-## The corporate: you pay twice
+## The corporate: your business is their training data
 
 Satya Nadella (Microsoft CEO) called it the [Reverse Information Paradox](https://snscratchpad.com/posts/reverse-information-paradox/). To make effective use of an LLM you need to tell it your proprietary context, workflows, institutional knowledge, and continuous human corrections. The byproduct is valuable "intelligence exhaust." Every prompt, every tool call, every correction subtly trains and refines the vendor's LLM. The enterprise pays for the service twice: first with money, and second with the proprietary know-how that forms its competitive moat.
 
