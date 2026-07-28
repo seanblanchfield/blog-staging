@@ -5,6 +5,7 @@ date: 2026-07-24
 categories: [current, ai, strategy, policy]
 excerpt: "AI sovereignty is being used to mean six different things simultaneously. But strip them back and they all reduce to the same question."
 draft: true
+image: /images/2026/07/ai-sovereignty.png
 ---
 
 <lead>The phrase "AI sovereignty" is everywhere right now. To a European commissioner it means one thing. To a CISO it means something different. A graphic designer in Galway asking whether her livelihood is safe interprets something different again. A government minister in Paris, watching Washington pull the plug on a frontier model overnight, says "sovereignty" in a different way entirely. But they are all asking the same basic question: *what part of this future do I get to own?*</lead>
