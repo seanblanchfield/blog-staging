@@ -41,7 +41,7 @@ These challenges go beyond Ireland. Every minority culture and language faces th
 
 Satya Nadella (Microsoft CEO) called it the [Reverse Information Paradox](https://snscratchpad.com/posts/reverse-information-paradox/). To make effective use of an LLM you need to tell it your proprietary context, workflows, institutional knowledge, and continuous human corrections. The byproduct is valuable "intelligence exhaust." Every prompt, every tool call, every correction subtly trains and refines the vendor's LLM. The enterprise pays for the service twice: first with money, and second with the proprietary know-how that forms its competitive moat.
 
-Alex Karp (Palantir's CEO)  went on a tirade on CNBC in July 2026, speaking on behalf of the CEOs of companies using AI:
+Alex Karp (Palantir's CEO) [went on a tirade on CNBC in July 2026](https://www.cnbc.com/video/2026/07/01/palantir-ceo-alex-karp-says-something-has-gone-completely-wrong-with-how-ai-is-sold.html), speaking on behalf of the CEOs of companies using AI:
 
 > *"These people are stealing the weights and alpha of my business, and they're creating a wealth tax that does not help the poor, it just punishes."*
 
