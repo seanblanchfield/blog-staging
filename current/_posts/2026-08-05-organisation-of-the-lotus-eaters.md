@@ -19,8 +19,8 @@ You may recognise some of these:
 | The move | Example | What it does |
 |---|---|---|
 | **The Colon Reveal** | "The product exists for one reason: to make complexity legible." | The punctuation performs an inference the writer has not established. |
-| **The Syntactic Escape Hatch** | "The stakes are high—we need to act." | Uses an em dash in place of any precise connective, allowing the sentence to avoid stating what logical relationship it is claiming. |
-| **The Gravitas Dash** | "The problem is no longer technical—it is existential." | Announces a dramatic pivot, often between two entirely ordinary claims. |
+| **The Wild Dash** | "The stakes are high—we need to act." | Uses an em dash as wildcard punctuation in place of any precise connective, allowing the sentence to avoid stating what logical relationship it is claiming. |
+| **The Pregnant Pause** | "The problem is no longer technical. It is existential." | A short declarative sentence lands after an ordinary claim to announce that something profound has just occurred. Works equally well with a dash. |
 | **The Extinction Escalator** | "This is not merely a nuisance for one country. It could be a disaster for all humanity." | Drags every local consequence to the edge of a civilisational cliff. |
 | **The Cold-Open Carousel** | "The dam has cracked. The tide is turning. A sleeping giant has awakened." | Keeps beginning with new scene-setting metaphors because none has started the argument. |
 | **Sentence Confetti** | "The issue? Trust. The answer? Governance. Simple. Powerful. Inevitable." | Scatters fragments around to simulate pace, conviction and importance. |
@@ -62,7 +62,7 @@ The event is not typing. It is the research, argument, failed explanations, reje
 
 Now the residue can be generated first.
 
-The em dash is a useful case in miniature. It is the most semantically permissive punctuation mark in English. A colon announces a consequence. A semicolon connects clauses of equal weight. A conjunction commits to a relationship: *because*, *although*, *therefore*, *so*. An em dash commits to nothing. It gestures between two clauses and lets the reader supply the logic.
+The em dash is a useful case in miniature. It is the most semantically permissive punctuation mark in English — which is precisely why it has become the default punctuation of generated prose. A colon announces a consequence. A semicolon connects clauses of equal weight. A conjunction commits to a relationship: *because*, *although*, *therefore*, *so*. An em dash commits to nothing. It is wildcard punctuation: it gestures between two clauses and lets the reader supply the logic.
 
 A sentence built on an em dash is easy to generate and hard to rephrase. Try converting "The stakes are high—we need to act" into something more precise. *Because* the stakes are high, we need to act? *Although* the stakes are high, we need to act? *If* the stakes are high, we need to act? Each repair asks a question the original sentence never answered. The dash was not economical. It was evasive.
 
@@ -109,6 +109,10 @@ I use LLMs constantly. They help me research, test arguments, expose weaknesses,
 AI can make us think better. It can challenge a premature consensus, find contrary evidence, simulate an objection or provide the missing analogy. It can widen an inquiry. But it can also close one prematurely by supplying a plausible answer before the user has formed any account of the problem.
 
 The difference is intellectual agency.
+
+Used well, an LLM is something rarer than a search engine: an always-available interlocutor. It can take the other side of an argument, adopt a sceptical reader's perspective, find the weak joint in your reasoning and force you to answer for it. That is not a shortcut around thought. It is thought under pressure.
+
+Used badly, it short-circuits the same process. The model supplies a plausible first answer, the user recognises it as roughly right, and the inquiry closes before it properly opened. The interlocutor becomes the oracle.
 
 Delegation requires a principal. Someone must know what the work is for, judge whether it succeeded and accept the consequences. If nobody can state the claim, defend the trade-offs or say what would change their mind, the work was not delegated to AI. It was left undone beneath a finished-looking artefact.
 
