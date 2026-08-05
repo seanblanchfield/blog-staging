@@ -18,23 +18,65 @@ Call these **glibberisms** — the empty, telltale rhetorical moves that immedia
 
 You may recognise some of these glibberisms:
 
-| The move | Example | What it does |
-|---|---|---|
-| **The Colon Reveal** | "The product exists for one reason: to make complexity legible." | The punctuation performs an inference the writer has not established. |
-| **The Wild Dash** | "The stakes are high—we need to act." | Uses an em dash as wildcard punctuation in place of any precise connective, allowing the sentence to avoid stating what logical relationship it is claiming. |
-| **The Pregnant Pause** | "The problem is no longer technical. It is existential." | A short declarative sentence lands after an ordinary claim to announce that something profound has just occurred. Works equally well with a dash. |
-| **The Extinction Escalator** | "This is not merely a nuisance for one country. It could be a disaster for all humanity." | Drags every local consequence to the edge of a civilisational cliff. |
-| **The Cold-Open Carousel** | "The dam has cracked. The tide is turning. A sleeping giant has awakened." | Keeps beginning with new scene-setting metaphors because none has started the argument. |
-| **Sentence Confetti** | "The issue? Trust. The answer? Governance. Simple. Powerful. Inevitable." | Scatters fragments around to simulate pace, conviction and importance. |
-| **The Bottomless Bottom Line** | "The short version… Bottom line… In one sentence…" followed by five more paragraphs. | Announces compression without deciding what can be omitted. |
-| **The Freshly Minted Cliché** | "We need a durable, load-bearing foundation for a rapidly evolving landscape." | Uses expressions which still feel chosen even as the same machine issues them by the billion. |
-| **The Honesty Declaration** | "Let me be honest with you. The timeline is at risk." | Asserts trustworthiness as a property of the speaker rather than the claim. Honesty is assumed in good-faith discourse; announcing it implies the rest is less reliable, or lowers the reader's guard before a claim that can't stand on its own. |
-| **The Reluctant Concession** | "I'll be the first to admit this isn't perfect." | Performs intellectual humility without revising anything. Signals open-mindedness as a character trait rather than demonstrating it by actually updating a position. |
-| **The Authenticity Sticker** | "This is not speculation. It has been verified by multiple independent sources." | Awards the claim a certificate of reliability instead of showing the evidence. |
-| **The Commentary Track** | "That is not an exaggeration. It is the uncomfortable truth." | Tells the reader how to judge the previous claim instead of strengthening it. |
-| **The Paragraph Trailer** | "Three facts. Ninety-three words. Only one choice." | Advertises the structure and impact of the material rather than naming its subject. |
-| **The Two-Sided Bet** | "The project is making meaningful progress, although challenges may require prioritisation." | Preserves both outcomes instead of making a forecast or decision. As an investor friend says, you can't take both sides of the same bet and win. |
-| **The Intersection Roundabout** | "The company sits at the intersection of AI, sovereignty and the future of work." | Offers plenty of impressive approaches, but no exit. |
+**The Colon Reveal**
+*"The product exists for one reason: to make complexity legible."*
+The punctuation performs an inference the writer has not established.
+
+**The Wild Dash**
+*"The stakes are high—we need to act."*
+Uses an em dash as wildcard punctuation in place of any precise connective, allowing the sentence to avoid stating what logical relationship it is claiming.
+
+**The Pregnant Pause**
+*"The problem is no longer technical. It is existential."*
+A short declarative sentence lands after an ordinary claim to announce that something profound has just occurred. Works equally well with a dash.
+
+**The Extinction Escalator**
+*"This is not merely a nuisance for one country. It could be a disaster for all humanity."*
+Drags every local consequence to the edge of a civilisational cliff.
+
+**The Cold-Open Carousel**
+*"The dam has cracked. The tide is turning. A sleeping giant has awakened."*
+Keeps beginning with new scene-setting metaphors because none has started the argument.
+
+**Sentence Confetti**
+*"The issue? Trust. The answer? Governance. Simple. Powerful. Inevitable."*
+Scatters fragments around to simulate pace, conviction and importance.
+
+**The Bottomless Bottom Line**
+*"The short version… Bottom line… In one sentence…"* followed by five more paragraphs.
+Announces compression without deciding what can be omitted.
+
+**The Freshly Minted Cliché**
+*"We need a durable, load-bearing foundation for a rapidly evolving landscape."*
+Uses expressions which still feel chosen even as the same machine issues them by the billion.
+
+**The Honesty Declaration**
+*"Let me be honest with you. The timeline is at risk."*
+Asserts trustworthiness as a property of the speaker rather than the claim. Honesty is assumed in good-faith discourse; announcing it implies the rest is less reliable, or lowers the reader's guard before a claim that can't stand on its own.
+
+**The Reluctant Concession**
+*"I'll be the first to admit this isn't perfect."*
+Performs intellectual humility without revising anything. Signals open-mindedness as a character trait rather than demonstrating it by actually updating a position.
+
+**The Authenticity Sticker**
+*"This is not speculation. It has been verified by multiple independent sources."*
+Awards the claim a certificate of reliability instead of showing the evidence.
+
+**The Commentary Track**
+*"That is not an exaggeration. It is the uncomfortable truth."*
+Tells the reader how to judge the previous claim instead of strengthening it.
+
+**The Paragraph Trailer**
+*"Three facts. Ninety-three words. Only one choice."*
+Advertises the structure and impact of the material rather than naming its subject.
+
+**The Two-Sided Bet**
+*"The project is making meaningful progress, although challenges may require prioritisation."*
+Preserves both outcomes instead of making a forecast or decision. As an investor friend says, you can't take both sides of the same bet and win.
+
+**The Intersection Roundabout**
+*"The company sits at the intersection of AI, sovereignty and the future of work."*
+Offers plenty of impressive approaches, but no exit.
 
 There is empirical evidence that LLMs have acquired a shared vocabulary. [Researchers examining millions of scientific abstracts](https://arxiv.org/pdf/2406.07016) have found sudden surges in words such as *delve, intricate, pivotal, crucial, comprehensive* and *underscore*. But playing spot-the-robot is becoming pointless. Models change, prompts improve, humans pick up their habits, and yesterday's tell becomes tomorrow's house style.
 
