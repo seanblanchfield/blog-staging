@@ -34,7 +34,7 @@ You may recognise some of these:
 
 There is empirical evidence that LLMs have acquired a shared vocabulary. [Researchers examining millions of scientific abstracts](https://arxiv.org/pdf/2406.07016) have found sudden surges in words such as *delve, intricate, pivotal, crucial, comprehensive* and *underscore*. But playing spot-the-robot is becoming pointless. Models change, prompts improve, humans pick up their habits, and yesterday's tell becomes tomorrow's house style.
 
-The more interesting pattern is the stagecraft. The prose continually tells us that something significant, rigorous, surprising, balanced or concise is happening. Often, the announcement is the only evidence that it happened.
+The more interesting pattern is the stagecraft. The prose continually tells us that something significant, rigorous, surprising, balanced or concise is happening. Often, the announcement is the only evidence that it happened. That is what these moves share: they are not failures of style. They are substitutes for thought.
 
 ## The evidence without the event
 
@@ -88,33 +88,21 @@ The educational researchers [Carl Bereiter and Marlene Scardamalia](https://www.
 
 Generate the explanation too early and you can skip straight past the transformation.
 
-## Pascal's shorter letter
-
-The line usually attributed to Mark Twain or Voltaire [actually comes from Blaise Pascal](https://quotle.info/who-said/i-would-have-written-a-shorter-letter-but-i-did-not-have/). At the end of his sixteenth *Provincial Letter* in 1657, he apologised:
-
-> "I have made this one longer only because I did not have the leisure to make it shorter."
-
-The work in a short letter is not deleting adjectives. It is deciding what matters.
-
-Brevity and compression are different things. Brevity uses fewer words. Compression preserves the decisive information and removes the rest. To compress something truthfully, somebody must understand what cannot safely be lost.
+The same is true of compression. The line usually attributed to Mark Twain or Voltaire [actually comes from Blaise Pascal](https://quotle.info/who-said/i-would-have-written-a-shorter-letter-but-i-did-not-have/). At the end of his sixteenth *Provincial Letter* in 1657, he apologised: *"I have made this one longer only because I did not have the leisure to make it shorter."* The work in a short letter is not deleting adjectives. It is deciding what matters. Brevity uses fewer words. Compression preserves the decisive information and removes the rest — and to do that truthfully, somebody must understand what cannot safely be lost.
 
 An LLM can cut the word count. But unless the sender owns a model of the subject, nobody knows whether the right thing survived. The reader may spend ten minutes trying to recover a clear thought which never existed in the first place.
 
 Pascal lacked the time to make his letter shorter. We can now make the recipient spend that time instead.
 
-## Delegation requires a principal
+## The interlocutor and the oracle
 
 I use LLMs constantly. They help me research, test arguments, expose weaknesses, generate alternatives and improve drafts. This is not an argument for preserving intellectual toil as a heritage craft.
-
-AI can make us think better. It can challenge a premature consensus, find contrary evidence, simulate an objection or provide the missing analogy. It can widen an inquiry. But it can also close one prematurely by supplying a plausible answer before the user has formed any account of the problem.
-
-The difference is intellectual agency.
 
 Used well, an LLM is something rarer than a search engine: an always-available interlocutor. It can take the other side of an argument, adopt a sceptical reader's perspective, find the weak joint in your reasoning and force you to answer for it. That is not a shortcut around thought. It is thought under pressure.
 
 Used badly, it short-circuits the same process. The model supplies a plausible first answer, the user recognises it as roughly right, and the inquiry closes before it properly opened. The interlocutor becomes the oracle.
 
-Delegation requires a principal. Someone must know what the work is for, judge whether it succeeded and accept the consequences. If nobody can state the claim, defend the trade-offs or say what would change their mind, the work was not delegated to AI. It was left undone beneath a finished-looking artefact.
+The difference is whether you arrive with a question or leave with an answer you never examined. Delegation requires a principal. Someone must know what the work is for, judge whether it succeeded and accept the consequences. If nobody can state the claim, defend the trade-offs or say what would change their mind, the work was not delegated to AI. It was left undone beneath a finished-looking artefact.
 
 I do not care whether a colleague typed every sentence. I care whether the message is a faithful representation of something they understand and believe. The author need not own every word, but they must own every consequential claim.
 
