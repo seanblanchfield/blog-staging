@@ -26,6 +26,8 @@ You may recognise some of these:
 | **Sentence Confetti** | "The issue? Trust. The answer? Governance. Simple. Powerful. Inevitable." | Scatters fragments around to simulate pace, conviction and importance. |
 | **The Bottomless Bottom Line** | "The short version… Bottom line… In one sentence…" followed by five more paragraphs. | Announces compression without deciding what can be omitted. |
 | **The Freshly Minted Cliché** | "We need a durable, load-bearing foundation for a rapidly evolving landscape." | Uses expressions which still feel chosen even as the same machine issues them by the billion. |
+| **The Honesty Declaration** | "Let me be honest with you. The timeline is at risk." | Asserts trustworthiness as a property of the speaker rather than the claim. Honesty is assumed in good-faith discourse; announcing it implies the rest is less reliable, or lowers the reader's guard before a claim that can't stand on its own. |
+| **The Reluctant Concession** | "I'll be the first to admit this isn't perfect." | Performs intellectual humility without revising anything. Signals open-mindedness as a character trait rather than demonstrating it by actually updating a position. |
 | **The Authenticity Sticker** | "This is not speculation. It has been verified by multiple independent sources." | Awards the claim a certificate of reliability instead of showing the evidence. |
 | **The Commentary Track** | "That is not an exaggeration. It is the uncomfortable truth." | Tells the reader how to judge the previous claim instead of strengthening it. |
 | **The Paragraph Trailer** | "Three facts. Ninety-three words. Only one choice." | Advertises the structure and impact of the material rather than naming its subject. |
@@ -35,6 +37,18 @@ You may recognise some of these:
 There is empirical evidence that LLMs have acquired a shared vocabulary. [Researchers examining millions of scientific abstracts](https://arxiv.org/pdf/2406.07016) have found sudden surges in words such as *delve, intricate, pivotal, crucial, comprehensive* and *underscore*. But playing spot-the-robot is becoming pointless. Models change, prompts improve, humans pick up their habits, and yesterday's tell becomes tomorrow's house style.
 
 The more interesting pattern is the stagecraft. The prose continually tells us that something significant, rigorous, surprising, balanced or concise is happening. Often, the announcement is the only evidence that it happened. That is what these moves share: they are not failures of style. They are substitutes for thought.
+
+## The feedback loop
+
+These patterns are not random. They have a cause, and the cause is structural.
+
+Language models are trained partly on human feedback: a reviewer reads two outputs, picks the better one, and the model adjusts. The reviewer is often paid by the task. They are not the intended reader of the document. They have no stake in whether the argument is sound, the claim defensible, or the evidence sufficient. What they can assess quickly is whether the prose *feels* authoritative, confident, well-structured, complete — and honest. The Authenticity Sticker feels more reliable than no sticker. The Pregnant Pause feels more significant than a plain declarative. The Honesty Declaration feels more trustworthy than simple assertion.
+
+The model learns what gets rewarded. What gets rewarded is the performance of quality, not quality itself.
+
+There is a secondary mechanism. As LLM output has proliferated, it has entered the training data for subsequent models. AI labs are now [bulk-buying pre-2022 books](https://www.news.com.au/technology/online/internet/ai-labs-buy-scan-shred-millions-of-rare-books/news-story/0c3b45a67093ab462a587a0348538ce9) — including rare and out-of-print volumes — scanning them and pulping the originals, specifically because pre-AI text is increasingly scarce. The reason it is scarce is that generated prose has contaminated so much of the available corpus. One company marketing bulk book acquisition to AI labs puts it plainly: *"The world's best AI training data is sitting on a shelf. Books represent curated, peer-reviewed, domain-specific human knowledge... Dense, edited, authoritative."* The implication is that everything else in the training pool is increasingly neither.
+
+The tail is wagging the dog. Human reviewers, working quickly and at scale, shaped the model's sense of what good writing sounds like. The model, deployed at scale, is now shaping what good writing actually looks like — in inboxes, reports, strategy documents, and increasingly in the training data for its successors. The vocabulary tells amplify. The rhetorical moves calcify.
 
 ## The evidence without the event
 
