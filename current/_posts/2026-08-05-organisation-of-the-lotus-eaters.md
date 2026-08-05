@@ -14,7 +14,9 @@ Until recently, writing clearly was evidence that someone had thought clearly. L
 
 Something odd has happened to workplace prose. Everything is *load-bearing*. Every advantage is *durable*. Every company sits at the *intersection* of three enormous ideas. And every ordinary observation arrives with its own drum roll.
 
-You may recognise some of these:
+Call these **glibberisms** — the empty, telltale rhetorical moves that immediately signal AI-generated text. Glib, because the prose is fluent and confident. Gibberish, because beneath the surface there is no recoverable argument. A glibberism does not merely fail to say anything: it is structurally designed to avoid commitment. It produces a pantomime of thoughtfulness — the gestures, cadences and vocabulary of serious writing — while ensuring that nobody has actually had to think anything through. The document gets written. The thinking does not happen.
+
+You may recognise some of these glibberisms:
 
 | The move | Example | What it does |
 |---|---|---|
@@ -46,7 +48,7 @@ Language models are trained partly on human feedback: a reviewer reads two outpu
 
 The model learns what gets rewarded. What gets rewarded is the performance of quality, not quality itself.
 
-There is a secondary mechanism. As LLM output has proliferated, it has entered the training data for subsequent models. AI labs are now [bulk-buying pre-2022 books](https://www.news.com.au/technology/online/internet/ai-labs-buy-scan-shred-millions-of-rare-books/news-story/0c3b45a67093ab462a587a0348538ce9) — including rare and out-of-print volumes — scanning them and pulping the originals, specifically because pre-AI text is increasingly scarce. The reason it is scarce is that generated prose has contaminated so much of the available corpus. One company marketing bulk book acquisition to AI labs puts it plainly: *"The world's best AI training data is sitting on a shelf. Books represent curated, peer-reviewed, domain-specific human knowledge... Dense, edited, authoritative."* The implication is that everything else in the training pool is increasingly neither.
+There is a secondary mechanism. As LLM output has proliferated, it has entered the training data for subsequent models. [I wrote about this in 2023](https://seanblanchfield.com/chatgpt-chewing-the-cud) — the risk that models would increasingly chew their own cud, training on the stylistic residue of their predecessors until the original signal was lost. AI labs are now [bulk-buying pre-2022 books](https://www.news.com.au/technology/online/internet/ai-labs-buy-scan-shred-millions-of-rare-books/news-story/0c3b45a67093ab462a587a0348538ce9) — including rare and out-of-print volumes — scanning them and pulping the originals, specifically because pre-AI text is increasingly scarce. The reason it is scarce is that generated prose has contaminated so much of the available corpus. One company marketing bulk book acquisition to AI labs puts it plainly: *"The world's best AI training data is sitting on a shelf. Books represent curated, peer-reviewed, domain-specific human knowledge... Dense, edited, authoritative."* The implication is that everything else in the training pool is increasingly neither.
 
 The tail is wagging the dog. Human reviewers, working quickly and at scale, shaped the model's sense of what good writing sounds like. The model, deployed at scale, is now shaping what good writing actually looks like — in inboxes, reports, strategy documents, and increasingly in the training data for its successors. The vocabulary tells amplify. The rhetorical moves calcify.
 
