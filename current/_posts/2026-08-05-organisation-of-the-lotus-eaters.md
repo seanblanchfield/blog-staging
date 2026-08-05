@@ -68,6 +68,8 @@ A sentence built on an em dash is easy to generate and hard to rephrase. Try con
 
 You cannot remove the dash and preserve the meaning, because the meaning was never there to preserve.
 
+![A typographic illustration of an em dash with ghosted alternatives radiating outward](/images/2026/08/lotus-eaters-emdash.png)
+
 That does more than conceal absent thinking. It can prevent the thinking from happening. Faced with a blank page, I have to construct an account. Faced with a polished draft, I start approving sentences. The model supplies the first coherent interpretation, and I negotiate with its frame. Recognition feels enough like understanding to end the inquiry.
 
 ## The failed sentence was the work
@@ -127,6 +129,8 @@ Creativity is not generating the hundredth plausible variation. It is finding th
 That is a suspiciously neat list of three, admittedly. Models can assist with all of them. The point is not that humans possess some permanent mystical capability which a future model can never touch.
 
 The point is agency. Somebody still has to choose the goal, recognise the answer, set the standard and own the consequences. The value of a person's work will lie less in how much material they can cause to exist and more in the judgments they are prepared to make within it.
+
+![An overgrown corporate atrium — laptop, slide deck and coffee cup abandoned among tropical plants, nobody present](/images/2026/08/lotus-eaters-atrium.png)
 
 ## The organisation of the lotus-eaters
 
