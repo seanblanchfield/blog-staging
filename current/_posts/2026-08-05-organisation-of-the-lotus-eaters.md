@@ -80,7 +80,7 @@ Offers plenty of impressive approaches, but no exit.
 
 There is empirical evidence that LLMs have acquired a shared vocabulary. [Researchers examining millions of scientific abstracts](https://arxiv.org/pdf/2406.07016) have found sudden surges in words such as *delve, intricate, pivotal, crucial, comprehensive* and *underscore*. But playing spot-the-robot is becoming pointless. Models change, prompts improve, humans pick up their habits, and yesterday's tell becomes tomorrow's house style.
 
-The more interesting pattern is the stagecraft. The prose continually tells us that something significant, rigorous, surprising, balanced or concise is happening. Often, the announcement is the only evidence that it happened. That is what these moves share: they are not failures of style. They are substitutes for thought.
+The pattern is the stagecraft. The prose continually tells us that something significant, rigorous, surprising, balanced or concise is happening. Often, the announcement is the only evidence that it happened. That is what these moves share: they are not failures of style. They are substitutes for thought.
 
 ## The feedback loop
 
@@ -92,7 +92,7 @@ The model learns what gets rewarded. What gets rewarded is the performance of qu
 
 There is a secondary mechanism. As LLM output has proliferated, it has entered the training data for subsequent models. [I wrote about this in 2023](https://seanblanchfield.com/chatgpt-chewing-the-cud) — the risk that models would increasingly chew their own cud, training on the stylistic residue of their predecessors until the original signal was lost. AI labs are now [bulk-buying pre-2022 books](https://www.news.com.au/technology/online/internet/ai-labs-buy-scan-shred-millions-of-rare-books/news-story/0c3b45a67093ab462a587a0348538ce9) — including rare and out-of-print volumes — scanning them and pulping the originals, specifically because pre-AI text is increasingly scarce. The reason it is scarce is that generated prose has contaminated so much of the available corpus. One company marketing bulk book acquisition to AI labs puts it plainly: *"The world's best AI training data is sitting on a shelf. Books represent curated, peer-reviewed, domain-specific human knowledge... Dense, edited, authoritative."* The implication is that everything else in the training pool is increasingly neither.
 
-The tail is wagging the dog. Human reviewers, working quickly and at scale, shaped the model's sense of what good writing sounds like. The model, deployed at scale, is now shaping what good writing actually looks like — in inboxes, reports, strategy documents, and increasingly in the training data for its successors. The vocabulary tells amplify. The rhetorical moves calcify.
+The tail is wagging the dog. Human reviewers, working quickly and at scale, shaped the model's sense of what good writing sounds like. The model, deployed at scale, is now shaping what good writing actually looks like — in inboxes, reports, strategy documents, and increasingly in the training data for its successors. The vocabulary tells amplify; the rhetorical moves calcify.
 
 ## The evidence without the event
 
@@ -138,7 +138,7 @@ When a piece succeeds, it is because I have eventually understood the subject we
 
 Those failures are not problems encountered while packaging a finished thought. They are how the thought acquires a shape.
 
-I have a private and admittedly uncharitable rule: when a competent person cannot write clearly about a subject, it is probably because they cannot yet think clearly about it. I do not mean spelling, literary elegance, dyslexia or writing in a second language. I mean the inability to say what is true, why it is true and what follows.
+I have a private and uncharitable rule: when a competent person cannot write clearly about a subject, it is probably because they cannot yet think clearly about it. I do not mean spelling, literary elegance, dyslexia or writing in a second language. I mean the inability to say what is true, why it is true and what follows.
 
 AI has not made that rule false. It has broken the converse. Bad writing may still expose confused thought. Good-looking writing no longer demonstrates clear thought.
 
@@ -154,9 +154,7 @@ Pascal lacked the time to make his letter shorter. We can now make the recipient
 
 ## The interlocutor and the oracle
 
-I use LLMs constantly. They help me research, test arguments, expose weaknesses, generate alternatives and improve drafts. This is not an argument for preserving intellectual toil as a heritage craft.
-
-Used well, an LLM is something rarer than a search engine: an always-available interlocutor. It can take the other side of an argument, adopt a sceptical reader's perspective, find the weak joint in your reasoning and force you to answer for it. That is not a shortcut around thought. It is thought under pressure.
+I use LLMs constantly. They help me research, test arguments, expose weaknesses, generate alternatives and improve drafts. Used well, an LLM is something rarer than a search engine: an always-available interlocutor. It can take the other side of an argument, adopt a sceptical reader's perspective, find the weak joint in your reasoning and force you to answer for it. That is not a shortcut around thought. It is thought under pressure.
 
 Used badly, it short-circuits the same process. The model supplies a plausible first answer, the user recognises it as roughly right, and the inquiry closes before it properly opened. The interlocutor becomes the oracle.
 
@@ -166,7 +164,7 @@ I do not care whether a colleague typed every sentence. I care whether the messa
 
 There is some early evidence that this distinction matters. A [2025 study of 319 knowledge workers](https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/) found that higher confidence in AI was associated with less reported critical thinking, while greater confidence in one's own ability was associated with more. AI shifted people from doing the task towards supervising its output.
 
-That can be an excellent trade. But supervision is only real when the supervisor knows what good looks like.
+Supervision is only real when the supervisor knows what good looks like.
 
 ## Creativity, clarity and taste
 
@@ -176,9 +174,7 @@ I think three things become more valuable.
 
 Creativity is not generating the hundredth plausible variation. It is finding the possibility that changes the frame. Clarity is working out what is actually true, which uncertainty remains and which consideration dominates. Taste is how not to become gauche when handed a blank cheque: saying no to almost everything that could defensibly be made and yes to the thing that should be.
 
-That is a suspiciously neat list of three, admittedly. Models can assist with all of them. The point is not that humans possess some permanent mystical capability which a future model can never touch.
-
-The point is agency. Somebody still has to choose the goal, recognise the answer, set the standard and own the consequences. The value of a person's work will lie less in how much material they can cause to exist and more in the judgments they are prepared to make within it.
+Models can assist with all of them. The point is not that humans possess some permanent mystical capability which a future model can never touch. The point is agency. Somebody still has to choose the goal, recognise the answer, set the standard and own the consequences. The value of a person's work will lie less in how much material they can cause to exist and more in the judgments they are prepared to make within it.
 
 ![An overgrown corporate atrium — laptop, slide deck and coffee cup abandoned among tropical plants, nobody present](/images/2026/08/lotus-eaters-atrium.png)
 
