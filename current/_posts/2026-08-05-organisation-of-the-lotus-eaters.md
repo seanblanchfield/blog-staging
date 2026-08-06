@@ -8,11 +8,11 @@ image: /images/2026/08/lotus-eaters-cover.png
 draft: true
 ---
 
-Until recently, writing clearly was evidence that someone had thought clearly. Language models have broken that connection. Now the finished document can arrive before anyone has done the work the document was supposed to represent.
+Until recently, clear writing was evidence that someone was thinking clearly. Now, thanks to AI, the finished prose can arrive before anyone has done any serious thinking at all. What happens in an organisation when everyone's word count goes up, but original thinking basically stops?
 
 <!--more-->
 
-Something odd has happened to workplace prose. Everything is *load-bearing*. Every advantage is *durable*. Every company sits at the *intersection* of three enormous ideas. And every ordinary observation arrives with its own drum roll.
+There's a rapid change in the prose arriving in our inboxes and channels. Suddenly, everything is *load-bearing*. Every advantage is *durable*. Every company sits at the *intersection* of three enormous ideas. And every ordinary observation arrives with its own drum roll.
 
 Call these **glibberisms**: the empty, telltale rhetorical moves that immediately signal AI-generated text. Glib, because the prose is fluent and confident. Gibberish, because beneath the surface there is no recoverable argument. A glibberism does not merely fail to say anything: it is structurally designed to avoid commitment. It produces a pantomime of thoughtfulness (the gestures, cadences and vocabulary of serious writing) while ensuring that nobody has actually had to think anything through. The document gets written. The thinking does not happen.
 
@@ -115,6 +115,8 @@ The second sounds more professional. It is also almost perfectly useless. How fa
 The paragraph does not answer those questions. It creates the reassuring impression that somebody has considered them.
 
 An LLM can now produce the evidence without the event.
+
+![Google's AI Overview answers "Do you ever think anything you don't say?" with "No, words appear only when generated. There is no hidden inner voice" — apparently unaware of the irony.](/images/2026/08/lotus-eaters-simpsons-google.png){: .captioned }
 
 The event is not typing. It is the research, argument, failed explanations, rejected hypotheses and uncomfortable choices through which somebody comes to know what they think. A finished report was never proof that this process had been rigorous (bureaucratic obfuscation is older than the computer), but sustained clarity was expensive enough to provide some evidence that a process had occurred.
 
