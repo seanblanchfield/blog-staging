@@ -8,19 +8,19 @@ image: /images/2026/08/lotus-eaters-cover.png
 draft: true
 ---
 
-Until recently, clear writing was evidence that someone was thinking clearly. Now, thanks to AI, the finished prose can arrive before anyone has done any serious thinking at all. What happens in an organisation when everyone's word count goes up, but original thinking basically stops?
+Until recently, clear writing was evidence that someone was thinking clearly. Now, thanks to AI, polished prose lands before anyone has done any serious thinking at all. What happens in an organisation when everyone's word count hockeysticks, but serious thinking basically stops?
 
 <!--more-->
 
-There's a rapid change in the prose arriving in our inboxes and channels. Suddenly, everything is *load-bearing*. Every advantage is *durable*. Every company sits at the *intersection* of three enormous ideas. And every ordinary observation arrives with its own drum roll.
+There's a rapid change in the prose arriving in our inboxes and channels. Suddenly, everything is *load-bearing*. Every advantage is *durable*. Every company sits at the *intersection* of three enormous ideas. And every ordinary observation arrives with its own drum roll. I find this more pernicious than "AI slop". It is looks good on its surface, but beneath there is no coherent argument. When you try to edit it down to its fundamentals, entire paragraphs start to collapse, revealing it was just gibberish with glib decorations. I've started to label it **glibberish!**
 
-Call these **glibberisms**: the empty, telltale rhetorical moves that immediately signal AI-generated text. Glib, because the prose is fluent and confident. Gibberish, because beneath the surface there is no recoverable argument. A glibberism does not merely fail to say anything: it is structurally designed to avoid commitment. It produces a pantomime of thoughtfulness (the gestures, cadences and vocabulary of serious writing) while ensuring that nobody has actually had to think anything through. The document gets written. The thinking does not happen.
+So here's a list of what we may call **glibberisms**, the telltale rhetorical constructions that AI loves to write and humans are beginning to hate. A glibberism is not mere waffle: it avoids commitment. It produces a pantomime of thoughtfulness (the gestures and cadences of serious writing) without anybody ever having to do hard thinking, take a side, or defend their statements. 
 
-You may recognise some of these glibberisms:
+Here's my list (you will probably recognise many of them):
 
 **The Colon Reveal**
 *"The product exists for one reason: to make complexity legible."*
-The punctuation performs an inference the writer has not established.
+The dramatic punctuation performs an inference that has not established.
 
 **The Wild Dash**
 *"The stakes are high—we need to act."*
@@ -36,27 +36,27 @@ Drags every local consequence to the edge of a civilisational cliff.
 
 **The Cold-Open Carousel**
 *"The dam has cracked. The tide is turning. A sleeping giant has awakened."*
-Keeps beginning with new scene-setting metaphors because none has started the argument.
+Keeps beginning over with new scene-setting metaphors because none has started the argument.
 
 **Sentence Confetti**
 *"The issue? Trust. The answer? Governance. Simple. Powerful. Inevitable."*
 Scatters fragments around to simulate pace, conviction and importance.
 
 **The Bottomless Bottom Line**
-*"The short version… Bottom line… In one sentence…"* followed by five more paragraphs.
+*"The short version… Bottom line up front… TL;DR… In one sentence…"* followed by five more paragraphs.
 Announces compression without deciding what can be omitted.
 
-**The Freshly Minted Cliché**
+**The Gen Cliché**
 *"We need a durable, load-bearing foundation for a rapidly evolving landscape."*
-Uses expressions which still feel chosen even as the same machine issues them by the billion.
+Adjectives that have gone from rare to cliché in less than 3 years.
 
 **The Honesty Declaration**
-*"Let me be honest with you. The timeline is at risk."*
-Asserts trustworthiness as a property of the speaker rather than the claim. Honesty is assumed in good-faith discourse; announcing it implies the rest is less reliable, or lowers the reader's guard before a claim that can't stand on its own.
+*"Let me be honest with you. Honestly, that's on me. Sam put it honestly when it said X."*
+Asserts trustworthiness instead of earning it. Honesty is assumed in good-faith discourse; announcing it implies the rest is lies. 
 
 **The Reluctant Concession**
 *"I'll be the first to admit this isn't perfect."*
-Performs intellectual humility without revising anything. Signals open-mindedness as a character trait rather than demonstrating it by actually updating a position.
+Performs humility without revising anything. Signals open-mindedness rather than demonstrating it by actually updating a position.
 
 **The Authenticity Sticker**
 *"This is not speculation. It has been verified by multiple independent sources."*
@@ -64,63 +64,50 @@ Awards the claim a certificate of reliability instead of showing the evidence.
 
 **The Commentary Track**
 *"That is not an exaggeration. It is the uncomfortable truth."*
-Tells the reader how to judge the previous claim instead of strengthening it.
+Tells the reader how to judge the previous claim instead of letting it stand or fall on its own merit.
 
-**The Paragraph Trailer**
-*"Three facts. Ninety-three words. Only one choice."*
-Advertises the structure and impact of the material rather than naming its subject.
+**The Structure Trailer**
+*"Three facts. Ninety-three words. Only one heading."*
+Narrates the structure of the material rather than the subject. Often seen in AI slide decks.
 
 **The Two-Sided Bet**
 *"The project is making meaningful progress, although challenges may require prioritisation."*
-Preserves both outcomes instead of making a forecast or decision. As an investor friend says, you can't take both sides of the same bet and win.
+Preserves both outcomes instead of taking a position. As an investor would say, you can't take both sides of the same bet and win.
 
 **The Intersection Roundabout**
 *"The company sits at the intersection of AI, sovereignty and the future of work."*
 Offers plenty of impressive approaches, but no exit.
 
-There is empirical evidence that LLMs have acquired a shared vocabulary. [Researchers examining millions of scientific abstracts](https://arxiv.org/pdf/2406.07016) have found sudden surges in words such as *delve, intricate, pivotal, crucial, comprehensive* and *underscore*. But playing spot-the-robot is becoming pointless. Models change, prompts improve, humans pick up their habits, and yesterday's tell becomes tomorrow's house style.
+[There is empirical evidence that LLMs](https://arxiv.org/pdf/2406.07016) have acquired their own vocabulary, with sudden surges in words like *delve, intricate, pivotal, crucial, comprehensive* and *underscore* in post-gen-AI scientific literature. But the deeper pattern is in the stagecraft. The prose continually announces that something significant, rigorous, surprising, balanced or concise is happening. Often, the announcement is the only evidence that it happened. These glibberisms aren't just bad style, they are a convincing cover-up for a failure to do the thinking.
 
-The pattern is the stagecraft. The prose continually tells us that something significant, rigorous, surprising, balanced or concise is happening. Often, the announcement is the only evidence that it happened. That is what these moves share: they are not failures of style. They are substitutes for thought.
+## It's in their nature
 
-## The feedback loop
+Language models are trained partly on human feedback: a reviewer reads two outputs, picks one, and the model adjusts. The reviewer is often paid by the task. They are not the intended reader of the document. They have no real stake in whether the argument is sound, the claim defensible, or the evidence sufficient. What they can assess quickly is whether the prose *feels* authoritative, confident, well-structured, complete and honest. The Authenticity Sticker feels more reliable than no sticker. The Pregnant Pause feels more significant than a plain declarative. The Honesty Declaration feels more trustworthy than simple assertion. The model learns what gets rewarded: the performance of quality, not quality itself.
 
-These patterns are not random. They have a cause, and the cause is structural.
+There is a secondary problem. As LLM output has proliferated, it has entered the training data for subsequent models. In 2023 I wrote about the risk [that models would increasingly "chew their own cud"](https://seanblanchfield.com/2023/03/chatgpt-chewing-the-cud), training on the residue of their predecessors until the original signal was lost. AI labs are now [bulk-buying pre-2022 books](https://www.news.com.au/technology/online/internet/ai-labs-buy-scan-shred-millions-of-rare-books/news-story/0c3b45a67093ab462a587a0348538ce9), including rare and out-of-print volumes, scanning them and pulping the originals, specifically because pre-AI text is increasingly scarce. Generated prose has contaminated the internet. One company marketing bulk book acquisition to AI labs puts it plainly: *"The world's best AI training data is sitting on a shelf. Books represent curated, peer-reviewed, domain-specific human knowledge... Dense, edited, authoritative."*
 
-Language models are trained partly on human feedback: a reviewer reads two outputs, picks the better one, and the model adjusts. The reviewer is often paid by the task. They are not the intended reader of the document. They have no stake in whether the argument is sound, the claim defensible, or the evidence sufficient. What they can assess quickly is whether the prose *feels* authoritative, confident, well-structured, complete and honest. The Authenticity Sticker feels more reliable than no sticker. The Pregnant Pause feels more significant than a plain declarative. The Honesty Declaration feels more trustworthy than simple assertion.
+The tail is wagging the dog. Human reviewers, working quickly and superficially, shaped what LLMs think good writing is. The LLMs are now shaping what writing actually looks like.
 
-The model learns what gets rewarded. What gets rewarded is the performance of quality, not quality itself.
+## The shared delusion 
 
-There is a secondary mechanism. As LLM output has proliferated, it has entered the training data for subsequent models. In 2023 I wrote about this risk: that models would increasingly chew their own cud, training on the stylistic residue of their predecessors until the original signal was lost. AI labs are now [bulk-buying pre-2022 books](https://www.news.com.au/technology/online/internet/ai-labs-buy-scan-shred-millions-of-rare-books/news-story/0c3b45a67093ab462a587a0348538ce9), including rare and out-of-print volumes, scanning them and pulping the originals, specifically because pre-AI text is increasingly scarce. The reason it is scarce is that generated prose has contaminated so much of the available corpus. One company marketing bulk book acquisition to AI labs puts it plainly: *"The world's best AI training data is sitting on a shelf. Books represent curated, peer-reviewed, domain-specific human knowledge... Dense, edited, authoritative."* The implication is that everything else in the training pool is increasingly neither.
+In my post [Hitchhiker's Guide to AI Collaboration](https://seanblanchfield.com/2025/05/hitchhikers-guide-to-ai-collaboration) I argued that sending a colleague an AI-generated document which took longer to read than to produce was anti-collaborative. The sender falsely feels a the productivity gain while transferring multiplied costs to everyone else. Since then LLMs got more convincing, and the problem got more complicated. Now, both the sender and the recipients have fallen into a collective delusion that the intellectual work even happening at all.
 
-The tail is wagging the dog. Human reviewers, working quickly and at scale, shaped the model's sense of what good writing sounds like. The model, deployed at scale, is now shaping what good writing actually looks like: in inboxes, reports, strategy documents, and increasingly in the training data for its successors. The vocabulary tells amplify; the rhetorical moves calcify.
 
-## The evidence without the event
-
-Eighteen months ago, I wrote a [Hitchhiker's Guide to AI Collaboration](https://seanblanchfield.com/2025/05/hitchhikers-guide-to-ai-collaboration). I argued that sending a colleague an AI-generated document which took longer to read than to produce was anti-collaborative. The sender enjoyed the productivity gain and transferred the cost to everyone else.
-
-I was worried about the wrong asymmetry.
-
-The deeper problem is not that the document transfers the work to the reader. It is that the document may create the impression that the work happened at all.
-
-Consider two project updates:
-
-> We are three weeks behind because the authentication work was underestimated. Sarah is now on the critical path. We either cut SSO or move the launch to September.
-
-And:
+Consider a typical 2026 project update:
 
 > While the authentication workstream has presented some unforeseen complexities, the team continues to make meaningful progress across several key areas. The current timeline remains achievable, although some prioritisation decisions may be required as we work through the remaining dependencies.
 
-The second sounds more professional. It is also almost perfectly useless. How far behind are we? What caused it? Is the launch date real? What decision is required? Who needs to make it?
+How far behind are we? What caused it? Is the launch date real? What decision is required? Who needs to make it?
 
-The paragraph does not answer those questions. It creates the reassuring impression that somebody has considered them.
+In the old days, drivel like this would at least have had a disembling mastermind behind it (Im picturing the amazing Sir Humphrey in Yes Minister!). Now everyone is at it,  but no one has a masterplan.
 
-An LLM can now produce the evidence without the event.
-
-![Google's AI Overview answers "Do you ever think anything you don't say?" with "No, words appear only when generated. There is no hidden inner voice" — apparently unaware of the irony.](/images/2026/08/lotus-eaters-simpsons-google.png){: .captioned }
+![Google's AI answers The Simpson's quote "Do you ever think anything you don't say?" with a hilarious lack of irony.](/images/2026/08/lotus-eaters-simpsons-google.png){: .captioned }
 
 The event is not typing. It is the research, argument, failed explanations, rejected hypotheses and uncomfortable choices through which somebody comes to know what they think. A finished report was never proof that this process had been rigorous (bureaucratic obfuscation is older than the computer), but sustained clarity was expensive enough to provide some evidence that a process had occurred.
 
 Now the residue can be generated first.
+
+## The parable of the em dash
 
 The em dash is a useful case in miniature. It is the most semantically permissive punctuation mark in English, which is precisely why it has become the default punctuation of generated prose. A colon announces a consequence. A semicolon connects clauses of equal weight. A conjunction commits to a relationship: *because*, *although*, *therefore*, *so*. An em dash commits to nothing. It is wildcard punctuation: it gestures between two clauses and lets the reader supply the logic.
 
@@ -133,9 +120,9 @@ You cannot remove the dash and preserve the meaning, because the meaning was nev
 
 ![A typographic illustration of an em dash with ghosted alternatives radiating outward](/images/2026/08/lotus-eaters-emdash.png)
 
-That does more than conceal absent thinking. It can prevent the thinking from happening. Faced with a blank page, I have to construct an account. Faced with a polished draft, I start approving sentences. The model supplies the first coherent interpretation, and I negotiate with its frame. Recognition feels enough like understanding to end the inquiry.
-
 ## The failed sentence was the work
+
+That does more than conceal absent thinking. It can prevent the thinking from happening. Faced with a blank page, I have to construct an account. Faced with a polished draft, I start approving sentences. The model supplies the first coherent interpretation, and I negotiate with its frame. Recognition feels enough like understanding to end the inquiry.
 
 People are kind enough to tell me that I write well. The compliment is usually paid to the sentences, but the sentences come last.
 
