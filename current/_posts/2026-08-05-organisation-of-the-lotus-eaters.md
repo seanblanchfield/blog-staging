@@ -99,7 +99,18 @@ Consider a typical 2026 project update:
 
 How far behind are we? What caused it? Is the launch date real? What decision is required? Who needs to make it?
 
-In the old days, drivel like this would at least have had a disembling mastermind behind it (Im picturing the amazing Sir Humphrey in Yes Minister!). Now everyone is at it,  but no one has a masterplan.
+In the old days, evasion of this kind required a mastermind. Sir Humphrey Appleby, the Permanent Secretary in *Yes Minister*, was the gold standard. Asked a straight question — will you support the Minister's position, yes or no? — he replied:
+
+![Sir Humphrey Appleby (Nigel Hawthorne) in Yes Minister](/images/2026/08/sir-humphrey.jpg){: .captioned }
+*Sir Humphrey Appleby, the original large language model.*
+
+> "Well, Minister, if you ask me for a straight answer, then I shall say that, as far as we can see, looking at it by and large, taking one time with another in terms of the average of departments, then in the final analysis it is probably true to say, that at the end of the day, in general terms, you would probably find that, not to put too fine a point on it, there probably wasn't very much in it one way or the other. As far as one can see, at this stage."
+
+Hacker: "Is that yes or no?"
+
+Humphrey: "Yes and no."
+
+The difference is that Sir Humphrey *knew* the answer. The evasion was deliberate, effortful, masterfully constructed. Every hedging phrase was placed with intent. Now everyone is at it, but unfortunately nobody has a masterplan — or an answer.
 
 ![Google's AI answers The Simpson's quote "Do you ever think anything you don't say?" with a hilarious lack of irony.](/images/2026/08/lotus-eaters-simpsons-google.png){: .captioned }
 
