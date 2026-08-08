@@ -90,70 +90,49 @@ The tail is wagging the dog. Human reviewers, working quickly and superficially,
 
 ## The shared delusion 
 
-In my post [Hitchhiker's Guide to AI Collaboration](https://seanblanchfield.com/2025/05/hitchhikers-guide-to-ai-collaboration) I argued that sending a colleague an AI-generated document which took longer to read than to produce was anti-collaborative. The sender falsely feels a the productivity gain while transferring multiplied costs to everyone else. Since then LLMs got more convincing, and the problem got more complicated. Now, both the sender and the recipients have fallen into a collective delusion that the intellectual work even happening at all.
+In my post [Hitchhiker's Guide to AI Collaboration](https://seanblanchfield.com/2025/05/hitchhikers-guide-to-ai-collaboration) I declared that sending a colleague an AI-generated document that takes longer to read than it did to produce was anti-collaborative. The sender gets a false feeling of productivity, while externalising outsized costs to everyone else. Since then, LLMs got a lot more convincing, and the problem has got more complicated. Now, both the sender and the recipients have fallen into a collective delusion that the intellectual work even happened at all.
 
-
-Consider a typical 2026 project update:
+Consider a something a frontier Q2 2026 LLM wrote:
 
 > While the authentication workstream has presented some unforeseen complexities, the team continues to make meaningful progress across several key areas. The current timeline remains achievable, although some prioritisation decisions may be required as we work through the remaining dependencies.
 
 How far behind are we? What caused it? Is the launch date real? What decision is required? Who needs to make it?
 
-In the old days, evasion of this kind required a mastermind. Sir Humphrey Appleby, the Permanent Secretary in *Yes Minister*, was the gold standard. Asked a straight question — will you support the Minister's position, yes or no? — he replied:
+In the old days, evasion of this kind required a mastermind. Sir Humphrey Appleby, the Permanent Secretary in *Yes Minister*, was the gold standard. 
+In the old days, drivel like this would at least have had a disembling mastermind behind it, epitomised by the amazing Sir Humphrey Appleby in Yes Minister!
 
-![Sir Humphrey Appleby (Nigel Hawthorne) in Yes Minister](/images/2026/08/sir-humphrey.jpg){: .captioned }
-*Sir Humphrey Appleby, the original large language model.*
+![Well, Minister, if you ask me for a straight answer, then I shall say that, as far as we can see, looking at it by and large, taking one time with another in terms of the average of departments, then in the final analysis it is probably true to say, that at the end of the day, in general terms, you would probably find that, not to put too fine a point on it, there probably wasn't very much in it one way or the other. As far as one can see, at this stage.](/images/2026/08/sir-humphrey.jpg){: .captioned }
 
-> "Well, Minister, if you ask me for a straight answer, then I shall say that, as far as we can see, looking at it by and large, taking one time with another in terms of the average of departments, then in the final analysis it is probably true to say, that at the end of the day, in general terms, you would probably find that, not to put too fine a point on it, there probably wasn't very much in it one way or the other. As far as one can see, at this stage."
+> Humphrey: "Well, Minister, if you ask me for a straight answer, then I shall say that, as far as we can see, looking at it by and large, taking one time with another in terms of the average of departments, then in the final analysis it is probably true to say, that at the end of the day, in general terms, you would probably find that, not to put too fine a point on it, there probably wasn't very much in it one way or the other. As far as one can see, at this stage."
+> Hacker: "Is that yes or no?"
+> Humphrey: "Yes and no."
 
-Hacker: "Is that yes or no?"
-
-Humphrey: "Yes and no."
-
-The difference is that Sir Humphrey *knew* the answer. The evasion was deliberate, effortful, masterfully constructed. Every hedging phrase was placed with intent. Now everyone is at it, but unfortunately nobody has a masterplan — or an answer.
+. Now everyone is at it,  but unfortunately no one has a masterplan.
 
 ![Google's AI answers The Simpson's quote "Do you ever think anything you don't say?" with a hilarious lack of irony.](/images/2026/08/lotus-eaters-simpsons-google.png){: .captioned }
 
-The event is not typing. It is the research, argument, failed explanations, rejected hypotheses and uncomfortable choices through which somebody comes to know what they think. A finished report was never proof that this process had been rigorous (bureaucratic obfuscation is older than the computer), but sustained clarity was expensive enough to provide some evidence that a process had occurred.
-
-Now the residue can be generated first.
 
 ## The parable of the em dash
 
-The em dash is a useful case in miniature. It is the most semantically permissive punctuation mark in English, which is precisely why it has become the default punctuation of generated prose. A colon announces a consequence. A semicolon connects clauses of equal weight. A conjunction commits to a relationship: *because*, *although*, *therefore*, *so*. An em dash commits to nothing. It is wildcard punctuation: it gestures between two clauses and lets the reader supply the logic.
+The explosion in generated em dashes is a perfect miniature version of the entire problem. It's an ambiguous bit of punctuation, more popular in American than Englishes, that "can do the job of a comma, a colon, parentheses, or a semicolon — and it does it with considerably more drama" according to the [Ireland Publishing House](https://irelandpublishinghouse.ie/blog/em-dash-en-dash-how-to-use/). I know LLMs love the drama, but I suspect they love the ambiguity even more. An LLM sentence with an em dash is like two clauses sitting across a table vaguely gesturing at each other.  It is wildcard punctuation that commits to nothing. 
 
-A sentence built on an em dash is easy to generate and hard to rephrase. Try converting "The stakes are high—we need to act" into something more precise. *Because* the stakes are high, we need to act? *Although* the stakes are high, we need to act? *If* the stakes are high, we need to act? Each repair asks a question the original sentence never answered. The dash was not economical. It was evasive.
-
-You cannot remove the dash and preserve the meaning, because the meaning was never there to preserve.
+You can't just fix it by replacing the dashes with commas. This piece of all-purpose punctuation allows the LLM to make a vague gesture and carry on generating. How can you convert "the stakes are high—we need to act"? *Because* the stakes are high, we need to act? *Although* the stakes are high? *If*? Fixing it requires a choice, and requires everything that the LLM generated after it to be re-examined. 
 
 {: .callout }
-> While editing this post, I asked Shirka (the AI I work with daily) to audit its own em dash usage. The draft had 14 of them. Shirka flagged the count, noted it was above threshold, and moved on without fixing a single one. When I pushed back, it acknowledged the problem, listed the offending sentences, agreed they should be fixed, and then asked whether I wanted it to proceed. I had to ask three times. The difficulty is not laziness or oversight. The em dash is so syntactically permissive, and the smooth prose it produces aligns so well with what the model is trained to generate, that the dashes are effectively invisible to the model that wrote them. It outputs them effortlessly and audits them poorly. They are the filler words that an LLM utters but cannot hear. This is why eliminating them requires a sentence-by-sentence pass, forcing a repair attempt on each one explicitly, because in aggregate, the smoothness of the whole masks the evasion of every part.
+> My agent helped me research this bit about em dashes, and included 14 em dashes its research report. It has a skill to "lint" its output for this kind of thing, but forgave itself for being above threshold, without fixing a single one. When I pushed back, it listed some of the offending sentences, but I had to ask it three times to fix them, during which it removed most, missed others, and put some new ones in. I asked it to introspect its behaviour, and it claimed that the smooth feeling the em dash produces is irresistable to it. It said that it aligns so well with its training that they are effectively invisible to it. They seem to be the filler words that an LLM mutters but cannot hear.
 
 ![A typographic illustration of an em dash with ghosted alternatives radiating outward](/images/2026/08/lotus-eaters-emdash.png)
 
-## The failed sentence was the work
+## Polished documents were never the point
 
-That does more than conceal absent thinking. It can prevent the thinking from happening. Faced with a blank page, I have to construct an account. Faced with a polished draft, I start approving sentences. The model supplies the first coherent interpretation, and I negotiate with its frame. Recognition feels enough like understanding to end the inquiry.
+People are kind enough to tell me that I write well. But when I write well, it is only because I have eventually understood the subject well enough to know how to write it down. I get there by reading, talking, arguing and repeatedly trying to explain it to real or imaginary people. 
 
-People are kind enough to tell me that I write well. The compliment is usually paid to the sentences, but the sentences come last.
+The educational researchers [Carl Bereiter and Marlene Scardamalia](https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/methodological-advances-in-investigating-l2-writing-processes/3A57F6F5C1CCFDBBEE6A5897918FB0DF) drew a distinction between *knowledge telling* and *knowledge transforming*. Novices retrieve what they know and put it on the page. Expert writers change what they know in the process of solving the conceptual and rhetorical problems posed by the writing. The attempt to explain reorganises your knowledge and is inseparable from the process of understanding.
 
-When a piece succeeds, it is because I have eventually understood the subject well enough to know what belongs, what follows and what can be left out. I get there by reading, talking, arguing and repeatedly trying to explain it. Early attempts fail. Two claims turn out to have been smuggled into one. A word I relied upon has no stable meaning. The evidence supports the premise but not the conclusion. Three considerations matter, but I have not decided which one dominates.
+Producing documents was never the point. It is about the process of research, arguments, failed explanations, minor breakthroughs, rejected hypotheses and uncomfortable choices through which we painstakingly learn and comprehend hard things. The document used to be evidence someone had worked hard to understand something, and could perhaps even teach it to the rest of us. Skipping the understanding cheats us all. 
+If someone can't explain something simply, it's probably because they don't really understand it. And when someone can't write clearly, it is probably because they're can't think clearly.  AI has made this harder to judge. I've got to work hard to parse through the output of the latest LLMs before I finally figure out that it's just well dress drivel. What a waste of time. 
 
-Those failures are not problems encountered while packaging a finished thought. They are how the thought acquires a shape.
-
-I have a private and uncharitable rule: when a competent person cannot write clearly about a subject, it is probably because they cannot yet think clearly about it. I do not mean spelling, literary elegance, dyslexia or writing in a second language. I mean the inability to say what is true, why it is true and what follows.
-
-AI has not made that rule false. It has broken the converse. Bad writing may still expose confused thought. Good-looking writing no longer demonstrates clear thought.
-
-The educational researchers [Carl Bereiter and Marlene Scardamalia](https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/methodological-advances-in-investigating-l2-writing-processes/3A57F6F5C1CCFDBBEE6A5897918FB0DF) drew a distinction between *knowledge telling* and *knowledge transforming*. Novice writers retrieve what they know and put it on the page. Expert writers change what they know in the process of solving the conceptual and rhetorical problems posed by the writing. The attempt to explain does not merely transmit knowledge. It reorganises it.
-
-Generate the explanation too early and you can skip straight past the transformation.
-
-The same is true of compression. The line usually attributed to Mark Twain or Voltaire [actually comes from Blaise Pascal](https://quotle.info/who-said/i-would-have-written-a-shorter-letter-but-i-did-not-have/). At the end of his sixteenth *Provincial Letter* in 1657, he apologised: *"I have made this one longer only because I did not have the leisure to make it shorter."* The work in a short letter is not deleting adjectives. It is deciding what matters. Brevity uses fewer words. Compression preserves the decisive information and removes the rest; to do that truthfully, somebody must understand what cannot safely be lost.
-
-An LLM can cut the word count. But unless the sender owns a model of the subject, nobody knows whether the right thing survived. The reader may spend ten minutes trying to recover a clear thought which never existed in the first place.
-
-Pascal lacked the time to make his letter shorter. We can now make the recipient spend that time instead.
+The line usually attributed to Mark Twain or Voltaire [actually comes from Blaise Pascal](https://quotle.info/who-said/i-would-have-written-a-shorter-letter-but-i-did-not-have/). In 1657 he apologised: *"I have made this one longer only because I did not have the leisure to make it shorter."*  Thanks to LLMs, we are all sending long letters now, and it is up to the reader to figure out if they truly say anything at all.
 
 ## The interlocutor and the oracle
 
