@@ -80,6 +80,8 @@ Offers plenty of impressive approaches, but no exit.
 
 [There is empirical evidence that LLMs](https://arxiv.org/pdf/2406.07016) have acquired their own vocabulary, with sudden surges in words like *delve, intricate, pivotal, crucial, comprehensive* and *underscore* in post-gen-AI scientific literature. But the deeper pattern is in the stagecraft. The prose continually narrates itself, announcing that something significant, rigorous, surprising, balanced or concise is happening. Often, the announcement is the only evidence that it happened. These glibberisms aren't just bad style, they are a cover-up for the absence of real thinking.
 
+![Google's AI answers The Simpson's quote "Do you ever think anything you don't say?" with a hilarious lack of irony.](/images/2026/08/lotus-eaters-simpsons-google.png){: .captioned }
+
 ## Blame the training
 
 In 2023 I wrote about the risk [that models would increasingly "chew their own cud"](https://seanblanchfield.com/2023/03/chatgpt-chewing-the-cud), training on the output of their predecessors. This is a widely acknowledged problem now. Perhaps some of the strange rhetorical devices in AI-speak are artifacts caused by positive interference in the training data, with the natural inclinations of LLMs getting reinforced across generations of models.
@@ -92,7 +94,7 @@ No wonder the big labs are [buying up pre-2022 books, guaranteed human](https://
 
 People sometimes compliment me for writing well (I don't know why they always seem so surprised!). But the little voice inside my head always says "*the writing wasn't difficult; the thinking was hard part*". I can spend weeks trying to understand a thing well enough to be ready to write it down. The process involves reading, writing, drawing, talking, arguing and repeatedly trying to explain it to real (or if necessary imaginary) people.  
 
-[Educational researchers (https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/methodological-advances-in-investigating-l2-writing-processes/3A57F6F5C1CCFDBBEE6A5897918FB0DF) talked about the distinction between *knowledge telling* and *knowledge transforming*. Novices write what they know down on the page, but expert writers change what they know in the process of writing. Trying to explain something reorganises your knowledge and is inseparable from the process of understanding.
+[Educational researchers](https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/methodological-advances-in-investigating-l2-writing-processes/3A57F6F5C1CCFDBBEE6A5897918FB0DF) talked about the distinction between *knowledge telling* and *knowledge transforming*. Novices write what they know down on the page, but expert writers change what they know in the process of writing. Trying to explain something reorganises your knowledge and is inseparable from the process of understanding.
 
 Writing is not about having more documents. By writing something well, you are discovering and distilling a new understanding, and perhaps even making it teachable. But when you skip to the end with an LLM, and you cheat both yourself and your audience. 
 
@@ -138,5 +140,4 @@ If you don't contribute at this level, you are basically a human doing the work 
 
 Here's a litmus test to help us stay on course. Hundreds of years ago, Blaise Pascal apologised *"I would have written a shorter letter, but I did not have the time."*  Out of respect for ourselves and each other, let's make sure we only send each other short letters from now on.
 
-![Google's AI answers The Simpson's quote "Do you ever think anything you don't say?" with a hilarious lack of irony.](/images/2026/08/lotus-eaters-simpsons-google.png){: .captioned }
 
