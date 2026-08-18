@@ -20,16 +20,15 @@ There's a rapid change happening in our inboxes and channels. Suddenly, everythi
 - **The Wild Dash**
   *"The stakes are high—we need to act."*
   Uses an em dash as wildcard punctuation in place of any precise connective, allowing the sentence to avoid stating what logical relationship it is claiming.
-
 - **The Pregnant Pause**
   *"The problem is no longer technical. It is existential."*
   A short declarative sentence lands after an ordinary claim to announce that something profound has just occurred. Works equally well with a dash.
 - **The Metaphor Mixologist**
   *"We are scaling across parallel tracks over growing foundations."*
-  Reaches for several metaphors at once that don't make sense together. You go *along* a track, not *across* it; tracks don't normally depend on foundations; foundations don't grow. A human in the physical universe feels the wrongness immediately.
+  Reaches for several metaphors all at once, which don't make sense together. You go *along* a track, not *across* it; tracks don't normally depend on foundations; foundations don't grow. A human in the physical universe feels the wrongness immediately.
 - **The Extinction Escalator**
   *"This is not merely a nuisance for one country. It could be a disaster for all humanity."*
-  Drags every local consequence to the edge of a civilisational cliff.
+  Drags every consequence to the edge of a civilisational cliff.
 - **The Cold-Open Carousel**
   *"The dam has cracked. The tide is turning. A sleeping giant has awakened."*
   Keeps beginning over with new scene-setting metaphors because none has started the argument.
@@ -44,7 +43,7 @@ There's a rapid change happening in our inboxes and channels. Suddenly, everythi
   Adjectives that have gone from rare to cliché in less than 3 years.
 - **The Honesty Declaration**
   *"Let me be honest with you. Honestly, that's on me. Sam put it honestly when it said X."*
-  Asserts trustworthiness instead of earning it. Honesty is assumed in good-faith discourse; announcing it implies the rest is lies.
+  Asserts trustworthiness instead of earning it. Honesty is assumed in good-faith discourse; announcing it implies the rest is a lie.
 - **The Reluctant Concession**
   *"I'll be the first to admit this isn't perfect."*
   Performs humility without revising anything. Signals open-mindedness rather than demonstrating it by actually updating a position.
@@ -80,19 +79,17 @@ No wonder the big labs are [buying up pre-2022 books, guaranteed human](https://
 
 People sometimes compliment me for writing well (I don't know why they always seem so surprised!). But the little voice inside my head always says "*the writing wasn't difficult; the thinking was hard part*". I can spend weeks trying to understand a thing well enough to be ready to write it down. The process involves reading, writing, drawing, talking, arguing and repeatedly trying to explain it to real (or if necessary imaginary) people.  
 
-[Educational researchers](https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/methodological-advances-in-investigating-l2-writing-processes/3A57F6F5C1CCFDBBEE6A5897918FB0DF) talked about the distinction between *knowledge telling* and *knowledge transforming*. Novices write what they know down on the page, but expert writers change what they know in the process of writing. Trying to explain something reorganises your knowledge and is inseparable from the process of understanding.
+[Educational researchers](https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/methodological-advances-in-investigating-l2-writing-processes/3A57F6F5C1CCFDBBEE6A5897918FB0DF) talked about the distinction between *knowledge telling* and *knowledge transforming*. Novices write what they know down on the page, but expert writers change what they know in the process of writing. Trying to explain something reorganises your knowledge and helps you understand it.
 
 Writing is not about having more documents. By writing something well, you are discovering and distilling a new understanding, and perhaps even making it teachable. But when you skip to the end with an LLM, and you cheat both yourself and your audience. 
 
 ## The Evasion Engine
 
-A year ago I [wrote](https://seanblanchfield.com/2025/05/hitchhikers-guide-to-ai-collaboration) that sending a colleague generated text that takes longer to read than it took to "write" is anti-collaborative. The perpetrator gets a shallow feeling of productivity, while externalising outsized costs to everyone else. Since then, LLMs got a lot more convincing, and the problem has got trickier. It's not just that we're spraying semi-convincing slop at each other, or that we're not bringing our brains to work, but that AI creates the illusion of knowledge work while masking the absence of important intentional decisions.
+A year ago I [wrote](https://seanblanchfield.com/2025/05/hitchhikers-guide-to-ai-collaboration) that sending a colleague generated text that takes longer to read than it took to "write" is anti-collaborative. The perpetrator gets a shallow feeling of productivity, while externalising outsized costs to everyone else. Since then, LLMs got a lot more convincing, and the problem has got trickier. It's not just that we're spraying semi-convincing slop at each other, or that we're not bringing our brains to work, but that AI creates the illusion of knowledge work while masking the absence of important decisions.
 
-Consider this sample of Q2 2026 frontier AI drivel: "*While the authentication workstream has presented some unforeseen complexities, the team continues to make meaningful progress across several key areas. The current timeline remains achievable, although some prioritisation decisions may be required as we work through the remaining dependencies.*"
+Consider this sample of Q2 2026 frontier AI drivel: "*While the authentication workstream has presented some unforeseen complexities, the team continues to make meaningful progress across several key areas. The current timeline remains achievable, although some prioritisation decisions may be required as we work through the remaining dependencies.*" So... how bad is it? What was the problem? How achievable? What decisions do we need to make? By who?
 
-So... *How far behind are we? What caused it? Is the launch date real? What decision is required? Who needs to make it?*. 
-
-![Sir Humphrey Appleby, dissembler extraordinaire (Yes Minister!)](/images/2026/08/sir-humphrey.jpg){: .captioned }
+![Sir Humphrey Appleby, dissembler extraordinaire (Yes Minister!)](/images/2026/08/sir-humphrey.jpg){: .captioned .right }
 
 It reminds me of Sir Humphrey Appleby, the mastermind of evasion in *Yes Minister*. 
 
@@ -102,7 +99,7 @@ It reminds me of Sir Humphrey Appleby, the mastermind of evasion in *Yes Ministe
 >
 > **Humphrey**: "Yes and no."
 
-If Sir Humphrey and LLMs have one thing in common, is their dislike of the straight answer. So this is the kind of exposition that's piling up in our emails, documents, blog posts, marketing copy, requirements documents and specifications. This will soon be the diet we will feed AI agents to they can do better work, so we must urgently realise that when it comes to context, *more* is not always more.
+If Sir Humphrey and LLMs have one thing in common, is their dislike of the straight answer. This is what's piling up in our emails, documents, blog posts, marketing copy, requirements documents and specifications. This will soon be the diet we will feed AI agents to they can do better work, so we must urgently realise that when it comes to context, *more* is not always more.
 
 {: .callout }
 > **The parable of the em dash**
@@ -110,7 +107,7 @@ If Sir Humphrey and LLMs have one thing in common, is their dislike of the strai
 >
 > I asked my agent about its em dash habit, and it included 14 em dashes its response. It has a skill to "lint" its output for this kind of thing, but it gave itself a pass without fixing a single one. When I leaned on it a bit, it removed some of the offending sentences, missed others, and put some new ones in. I asked it to introspect its behaviour, and it claimed that the "smooth" feeling of the em dash is "irresistable" to it. It said that it aligns so well with its training that they are effectively invisible to it. They seem to be the filler words that an LLM mutters but cannot hear.
 
-![A typographic illustration of an em dash with ghosted alternatives radiating outward](/images/2026/08/lotus-eaters-emdash.png)
+![Two clauses shrugging at each other across an em dash](/images/2026/08/lotus-eaters-emdash.png){: .captioned }
 
 At organisation scale, this is terrifying. Plans and analyses circulate. Strategies abound. Every meeting produces a comprehensive summary with decisions, themes and next steps. People spend their days prompting and reviewing, engaged in the theatre of knowledge work. Humans get cut out of useful decision making, too removed to effectively say no to things before they happen, and reduced to "LGTM" rubberstamping the machine's homework. 
 
