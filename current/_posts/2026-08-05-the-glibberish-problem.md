@@ -89,9 +89,7 @@ A year ago I [wrote](https://seanblanchfield.com/2025/05/hitchhikers-guide-to-ai
 
 Consider this sample of Q2 2026 frontier AI drivel: "*While the authentication workstream has presented some unforeseen complexities, the team continues to make meaningful progress across several key areas. The current timeline remains achievable, although some prioritisation decisions may be required as we work through the remaining dependencies.*" So... how bad is it? What was the problem? How achievable? What decisions do we need to make? By who?
 
-![Sir Humphrey Appleby, dissembler extraordinaire (Yes Minister!)](/images/2026/08/sir-humphrey.jpg){: .captioned .right }
-
-It reminds me of Sir Humphrey Appleby, the mastermind of evasion in *Yes Minister*. 
+It reminds me of Sir Humphrey Appleby, the mastermind of evasion in *Yes Minister*. ![Sir Humphrey Appleby, dissembler extraordinaire (Yes Minister!)](/images/2026/08/sir-humphrey.jpg){: .captioned .right }
 
 > **Humphrey**: "Well, Minister, if you ask me for a straight answer, then I shall say that, as far as we can see, looking at it by and large, taking one time with another in terms of the average of departments, then in the final analysis it is probably true to say, that at the end of the day, in general terms, you would probably find that, not to put too fine a point on it, there probably wasn't very much in it one way or the other. As far as one can see, at this stage."
 >
