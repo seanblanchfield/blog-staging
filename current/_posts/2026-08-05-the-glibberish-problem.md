@@ -10,7 +10,7 @@ There's a big change happening in our inboxes and channels. Suddenly, everything
 
 <!--more-->
 
- I consider much of it glib gibberish, or "glibberish" for short. Everyone has a list, so here's my list of what I call **glibberisms**, the telltale rhetorical constructions that AI loves to write and humans are learning to hate:
+ Everyone has a list, so here's my list of glib rhetorical gibberish constructions (let's call them "glibberisms") that AI loves to write and humans are learning to hate:
 
 - **The Colon Reveal**
   *"The product exists for one reason: to make complexity legible."*
