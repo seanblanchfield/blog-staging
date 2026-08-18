@@ -6,7 +6,7 @@ image: /images/2026/08/lotus-eaters-cover.png
 draft: true
 ---
 
-There's a big change happening in our inboxes and channels. Suddenly, everything is *load-bearing*. Every advantage is *durable*. Every company sits at the *intersection* of three enormous ideas. And every observation arrives with its own drum roll. It is superfically good, but there's nothing beneath the surface. If you try to polish it, entire paragraphs collapse. This is worse than being flooded with "AI slop". It's sometimes convincing enough, but it is never great, and it bypasses the opportunity for people to make it great.
+There's a big change happening in our inboxes and channels. Suddenly, everything is *load-bearing*. Every advantage is *durable*. Every company sits at the *intersection* of three enormous ideas. And every observation arrives with its own drum roll. It is superficially good, but there's nothing beneath the surface. If you try to polish it, entire paragraphs collapse. This is worse than being flooded with "AI slop". It's sometimes convincing enough, but it is never great, and it bypasses the opportunity for people to make it great.
 
 <!--more-->
 
@@ -95,18 +95,18 @@ It reminds me of Sir Humphrey Appleby, the mastermind of evasion in *Yes Ministe
 >
 > **Humphrey**: "Yes and no."
 
-If Sir Humphrey and LLMs have one thing in common, is their dislike of the straight answer. This is what's piling up in our emails, documents, blog posts, marketing copy, requirements documents and specifications. This will soon be the diet we will feed AI agents to they can do better work, so we must urgently realise that when it comes to context, *more* is not always more.
+If Sir Humphrey and LLMs have one thing in common, is their dislike of the straight answer. This is what's piling up in our emails, documents, blog posts, marketing copy, requirements documents and specifications. This will soon be the diet we will feed AI agents so they can do better work, so we must urgently realise that when it comes to context, *more* is not always more.
 
 {: .callout }
 > ### The parable of the em dash
 > 
 > The explosion in generated em dashes is a perfect little diorama of the problem. It's an ambiguous bit of punctuation that "*can do the job of a comma, a colon, parentheses, or a semicolon — and it does it with considerably more drama*" according to the [Ireland Publishing House](https://irelandpublishinghouse.ie/blog/em-dash-en-dash-how-to-use/). I know LLMs love the drama, but I suspect they love the ambiguity even more. I picture an LLM sentence with an em dash as two clauses sitting across a table gesturing at each other. This wildcard allows the LLM to gloss over cause-and-effect and carry on generating. Editing out the em dashes often requires a lot of work, committing the text to a one direction or another, and often forcing a re-examination of everything that follows. 
 >
-> I asked my agent about its em dash habit, and it included 14 em dashes its response. It has a skill to "lint" its output for this kind of thing, but it gave itself a pass without fixing a single one. When I leaned on it a bit, it removed some of the offending sentences, missed others, and put some new ones in. I asked it to introspect its behaviour, and it claimed that the "smooth" feeling of the em dash is "irresistable" to it. It said that it aligns so well with its training that they are effectively invisible to it. They seem to be the filler words that an LLM mutters but cannot hear.
+> I asked my agent about its em dash habit, and it included 14 em dashes in its response. It has a skill to "lint" its output for this kind of thing, but it gave itself a pass without fixing a single one. When I leaned on it a bit, it removed some of the offending sentences, missed others, and put some new ones in. I asked it to introspect its behaviour, and it claimed that the "smooth" feeling of the em dash is "irresistable" to it. It said that it aligns so well with its training that they are effectively invisible to it. They seem to be the filler words that an LLM mutters but cannot hear.
 
 ![Two clauses shrugging at each other across an em dash](/images/2026/08/lotus-eaters-emdash.png){: .captioned }
 
-At organisation scale, this might be terrifying. Plans and analyses and strategies get widely shared. Every meeting is promptly followed a slightly incorrect notes and misassigned next steps. People spend days feeding slop back into the machine, engaged in the theatre of knowledge work. But humans get cut out of vital decisions, too removed to effectively say no to things before they happen, their contributions reduced to "**LGTM** &#128077;" rubberstamps of the machine's work. 
+At organisation scale, this might be terrifying. Plans and analyses and strategies get widely shared. Every meeting is promptly followed by slightly incorrect notes and misassigned next steps. People spend days feeding slop back into the machine, engaged in the theatre of knowledge work. But humans get cut out of vital decisions, too removed to effectively say no to things before they happen, their contributions reduced to "**LGTM** &#128077;" rubberstamps of the machine's work. 
 
 ## The way back
 
