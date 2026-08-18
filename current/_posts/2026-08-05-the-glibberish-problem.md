@@ -95,7 +95,7 @@ It reminds me of Sir Humphrey Appleby, the mastermind of evasion in *Yes Ministe
 >
 > **Humphrey**: "Yes and no."
 
-If Sir Humphrey and LLMs have one thing in common, is their dislike of the straight answer. This is what's piling up in our emails, documents, blog posts, marketing copy, requirements documents and specifications. This will soon be the diet we will feed AI agents so they can do better work, so we must urgently realise that when it comes to context, *more* is not always more.
+If Sir Humphrey and LLMs have one thing in common, it is their dislike of the straight answer. This is what's piling up in our emails, documents, blog posts, marketing copy, requirements documents and specifications. This will soon be the diet we will feed AI agents so they can do better work, so we must urgently realise that when it comes to context, *more* is not always more.
 
 {: .callout }
 > ### The parable of the em dash
