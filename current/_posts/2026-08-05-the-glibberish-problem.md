@@ -77,9 +77,9 @@ No wonder the big labs are [buying up pre-2022 books, guaranteed human](https://
 
 ## We don't write so we can have more files
 
-People sometimes compliment me for writing well (I don't know why they always seem so surprised!). But the little voice inside my head always says "*the writing wasn't difficult; the thinking was hard part*". I can spend weeks trying to understand a thing well enough to be ready to write it down. The process involves reading, writing, drawing, talking, arguing and repeatedly trying to explain it to real (or if necessary imaginary) people.  
+People sometimes compliment me for writing well (I don't know why they always seem so surprised!). But the little voice inside my head always says "*the writing wasn't difficult; the thinking was the hard part*". I can spend weeks trying to understand a thing well enough to be ready to write it down. The process involves reading, writing, drawing, talking, arguing and repeatedly trying to explain it to real (or if necessary imaginary) people.  
 
-[Educational researchers](https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/methodological-advances-in-investigating-l2-writing-processes/3A57F6F5C1CCFDBBEE6A5897918FB0DF) talked about the distinction between *knowledge telling* and *knowledge transforming*. Novices write what they know down on the page, but expert writers change what they know in the process of writing. Trying to explain something reorganises your knowledge and helps you understand it.
+[Educational researchers](https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/methodological-advances-in-investigating-l2-writing-processes/3A57F6F5C1CCFDBBEE6A5897918FB0DF) have talked about the distinction between *knowledge telling* and *knowledge transforming*. Novices write what they know down on the page, but expert writers change what they know in the process of writing. Trying to explain something reorganises your knowledge and helps you understand it.
 
 Writing is not about having more documents. By writing something well, you are discovering and distilling a new understanding, and perhaps even making it teachable. But when you skip to the end with an LLM, and you cheat both yourself and your audience. 
 
@@ -87,7 +87,7 @@ Writing is not about having more documents. By writing something well, you are d
 
 A year ago I [wrote](https://seanblanchfield.com/2025/05/hitchhikers-guide-to-ai-collaboration) that sending a colleague generated text that takes longer to read than it took to "write" is anti-collaborative. The perpetrator gets a shallow feeling of productivity, while externalising outsized costs to everyone else. Since then, LLMs got a lot more convincing, and the problem has got trickier. It's not just that we're spraying semi-convincing slop at each other, or that we're not bringing our brains to work, but that AI creates the illusion of knowledge work while masking the absence of important decisions.
 
-Consider this sample of Q2 2026 frontier AI drivel: "*While the authentication workstream has presented some unforeseen complexities, the team continues to make meaningful progress across several key areas. The current timeline remains achievable, although some prioritisation decisions may be required as we work through the remaining dependencies.*" So... how bad is it? What was the problem? How achievable? What decisions do we need to make? By who?
+Consider this prime sample of Q2 2026 frontier AI drivel: "*While the authentication workstream has presented some unforeseen complexities, the team continues to make meaningful progress across several key areas. The current timeline remains achievable, although some prioritisation decisions may be required as we work through the remaining dependencies.*" So... how bad is it? What was the problem? How achievable? What decisions do we need to make and who needs to make them?
 
 It reminds me of Sir Humphrey Appleby, the mastermind of evasion in *Yes Minister*. ![Sir Humphrey Appleby, dissembler extraordinaire (Yes Minister!)](/images/2026/08/sir-humphrey.jpg){: .captioned .right }
 
@@ -100,24 +100,25 @@ It reminds me of Sir Humphrey Appleby, the mastermind of evasion in *Yes Ministe
 If Sir Humphrey and LLMs have one thing in common, is their dislike of the straight answer. This is what's piling up in our emails, documents, blog posts, marketing copy, requirements documents and specifications. This will soon be the diet we will feed AI agents to they can do better work, so we must urgently realise that when it comes to context, *more* is not always more.
 
 {: .callout }
-> **The parable of the em dash**
+> ### The parable of the em dash
+> 
 > The explosion in generated em dashes is a perfect little diorama of the problem. It's an ambiguous bit of punctuation that "*can do the job of a comma, a colon, parentheses, or a semicolon — and it does it with considerably more drama*" according to the [Ireland Publishing House](https://irelandpublishinghouse.ie/blog/em-dash-en-dash-how-to-use/). I know LLMs love the drama, but I suspect they love the ambiguity even more. I picture an LLM sentence with an em dash as two clauses sitting across a table gesturing at each other. This wildcard allows the LLM to gloss over cause-and-effect and carry on generating. Editing out the em dashes often requires a lot of work, committing the text to a one direction or another, and often forcing a re-examination of everything that follows. 
 >
 > I asked my agent about its em dash habit, and it included 14 em dashes its response. It has a skill to "lint" its output for this kind of thing, but it gave itself a pass without fixing a single one. When I leaned on it a bit, it removed some of the offending sentences, missed others, and put some new ones in. I asked it to introspect its behaviour, and it claimed that the "smooth" feeling of the em dash is "irresistable" to it. It said that it aligns so well with its training that they are effectively invisible to it. They seem to be the filler words that an LLM mutters but cannot hear.
 
 ![Two clauses shrugging at each other across an em dash](/images/2026/08/lotus-eaters-emdash.png){: .captioned }
 
-At organisation scale, this is terrifying. Plans and analyses circulate. Strategies abound. Every meeting produces a comprehensive summary with decisions, themes and next steps. People spend their days prompting and reviewing, engaged in the theatre of knowledge work. Humans get cut out of useful decision making, too removed to effectively say no to things before they happen, and reduced to "LGTM" rubberstamping the machine's homework. 
+At organisation scale, this is terrifying. Plans and analyses circulate. Strategies abound. Every meeting produces a comprehensive summary with decisions, themes and next steps. People spend their days prompting and reviewing, engaged in the theatre of knowledge work. But humans get cut out of real decision making, too removed to effectively say no to things before they happen, and reduced to "**LGTM** &#128077;" rubberstamping the machine's homework. 
 
 ## The way back
 
-Thanks to generative AI, writing a lot of words is no longer impressive. The human contribution has moved upstream.  I think things become more valuable:
+Thanks to generative AI, writing lots of words is no longer impressive. The human contribution has moved upstream.  These things become more valuable:
 
 - **Creativity**. Finding a fresh angle, not generating yet another variation on a theme.
 - **Taste**. Saying no to almost everything, and yes to the one thing that belongs.
 - **Clarity**. Articulating the essentials with alacrity. 
 
-If you don't contribute at this level, you are basically a human doing the work of an AI harness, and you'll soon be replaced. You should squeeze every drop of productivity out of your LLMs, but not at the expense of your own unique contribution. Your LLM can be your army of researchers, a tireless sounding board, an expert form-filler, a rapid experimenter, an automatic tester, a ruthless guardian of your inbox and calendar. But it is up to us as humans to make it work for us, not to think for us. We must stay involved at the creative level, decide what is important and what isn't, and what's just not for us. And we should want our colleagues and collaborators to achieve the same. 
+If you don't contribute at this level, you are basically a human doing the work of an AI harness, and you'll soon be replaced. You should squeeze every drop of productivity out of your LLMs, but not at the expense of your own unique contribution. Your LLM can be your army of researchers, a tireless sounding board, an expert form-filler, a rapid experimenter, an automatic tester, a ruthless guardian of your inbox and calendar. But it is up to us as humans to make it work for us, not to think for us. We must stay involved at the creative level, decide what is important and what isn't, and what's just not authentic. And we should want our colleagues and collaborators to do the same. 
 
 Here's a litmus test to help us stay on course. Hundreds of years ago, Blaise Pascal apologised *"I would have written a shorter letter, but I did not have the time."*  Out of respect for ourselves and each other, let's make sure we only send each other short letters from now on.
 
