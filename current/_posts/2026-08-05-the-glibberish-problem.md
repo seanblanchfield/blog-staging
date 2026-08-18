@@ -124,16 +124,9 @@ If Sir Humphrey and LLMs have one thing in common, is their dislike of the strai
 
 ![A typographic illustration of an em dash with ghosted alternatives radiating outward](/images/2026/08/lotus-eaters-emdash.png)
 
-## The organisation of the lotus-eaters
+Scale this up to an organisation and the effect compounds. Plans and analyses circulate. Strategies abound. Every meeting produces a comprehensive summary with decisions, themes and next steps. People spend their days prompting and reviewing, engaged in the theatre of knowledge work — mistaking the volume of output for the quality of thought. Humans abdicate their intellectual role and become too removed to effectively say no to things. Christopher Nolan recently made *The Odyssey* fashionable again; in Homer's epic, the lotus-eaters forget their purpose and lose the desire to continue their journey. Used thoughtlessly, AI is the same lotus. The level of activity ramps up, but so does confusion and diffused focus.
 
-Christopher Nolan recently made *The Odyssey* fashionable again. In Homer's epic, the lotus-eaters are forget their purpose and lose the desire to continue their journey.
-
-Used thoughtlessly, AI can be a lotus that traps organisations in the same way. Plans and analyses circulate, strategies abound. Every meeting produces a comprehensive summary with decisions, themes and next steps. People spend their days prompting and reviewing, engaged in the theatre of knowledge work. Humans abdicate their intellectual role, and become too removed to effectively say no to things. The level of activity ramps up, but so does confusion and diffused focus.
-
-![An overgrown corporate atrium — laptop, slide deck and coffee cup abandoned among tropical plants, nobody present](/images/2026/08/lotus-eaters-atrium.png)
-
-
-## Creativity, clarity and taste
+## The way back
 
 Thanks to generative AI, writing a lot of words is no longer impressive. The scarce human contribution has moved upstream.  I think things become more valuable:
 
@@ -141,7 +134,7 @@ Thanks to generative AI, writing a lot of words is no longer impressive. The sca
 - **Clarity**. Articulating the essentials with alacrity. 
 - **Taste**. Saying no to almost everything, and yes to the one thing that belongs.
 
-If you don't contribute at this level, you are basically a human doing the work of an AI harness, and you'll soon be replaced. By ensuring you move upstream to where humans can still create unique value, you get to control the goal, set the standard and own the consequences. The LLM can be your knowedgeable sounding board, your inexhaustible research assistant, and your clerk. But if you delegate your human agency to it, you will soon find it doesn't need you any more.
+If you don't contribute at this level, you are basically a human doing the work of an AI harness, and you'll soon be replaced. That's not an argument against using LLMs — it's an argument for using them in their place. An LLM can be your army of researchers, reading everything so you don't have to. It can be a tireless sounding board, stress-testing ideas at 3am without complaint. It can fill forms, draft boilerplate, run experiments, generate options, and summarise the things that don't deserve your full attention. All of that is genuinely useful. What it cannot do is care about the right answer, notice what's missing, or make the call that matters. Keep those for yourself. Move upstream to where the goal gets set, the standard gets chosen, and the consequences get owned. Let the LLM carry the load. Don't let it carry you.
 
 
 ![Google's AI answers The Simpson's quote "Do you ever think anything you don't say?" with a hilarious lack of irony.](/images/2026/08/lotus-eaters-simpsons-google.png){: .captioned }
