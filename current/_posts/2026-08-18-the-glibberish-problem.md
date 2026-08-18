@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "The Glibberish Problem"
-date: 2026-08-05 12:00:00 +0100
+date: 2026-08-18 12:00:00 +0100
 image: /images/2026/08/lotus-eaters-cover.png
-draft: true
+categories: [current, ai, writing, work]
 ---
 
 There's a big change happening in our inboxes and channels. Suddenly, everything is *load-bearing*. Every advantage is *durable*. Every company sits at the *intersection* of three enormous ideas. And every observation arrives with its own drum roll. It is superficially good, but there's nothing beneath the surface. If you try to polish it, entire paragraphs collapse. This is worse than being flooded with "AI slop". It's sometimes convincing enough, but it is never great, and it bypasses the opportunity for people to make it great.
