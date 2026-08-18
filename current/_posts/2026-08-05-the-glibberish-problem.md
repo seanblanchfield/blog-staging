@@ -35,7 +35,7 @@ There's a big change happening in our inboxes and channels. Suddenly, everything
   Scatters fragments around to simulate pace and conviction.
 - **The Bottomless Bottom Line**
   *"The short version… Bottom line up front… TL;DR… In one sentence…"* followed by five more paragraphs.
-  Tries to summaries without leaving anything out.
+  Tries to summarise without leaving anything out.
 - **The Gen Cliché**
   *"We need a durable, load-bearing foundation for a rapidly evolving landscape."*
   Adjectives that have gone from rare to cliché in less than 3 years.
