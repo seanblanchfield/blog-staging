@@ -124,18 +124,19 @@ If Sir Humphrey and LLMs have one thing in common, is their dislike of the strai
 
 ![A typographic illustration of an em dash with ghosted alternatives radiating outward](/images/2026/08/lotus-eaters-emdash.png)
 
-Scale this up to an organisation and the effect compounds. Plans and analyses circulate. Strategies abound. Every meeting produces a comprehensive summary with decisions, themes and next steps. People spend their days prompting and reviewing, engaged in the theatre of knowledge work — mistaking the volume of output for the quality of thought. Humans abdicate their intellectual role and become too removed to effectively say no to things. Christopher Nolan recently made *The Odyssey* fashionable again; in Homer's epic, the lotus-eaters forget their purpose and lose the desire to continue their journey. Used thoughtlessly, AI is the same lotus. The level of activity ramps up, but so does confusion and diffused focus.
+At organisation scale, this is terrifying. Plans and analyses circulate. Strategies abound. Every meeting produces a comprehensive summary with decisions, themes and next steps. People spend their days prompting and reviewing, engaged in the theatre of knowledge work. Humans get cut out of useful decision making, too removed to effectively say no to things before they happen, and reduced to "LGTM" rubberstamping the machine's homework. 
 
 ## The way back
 
-Thanks to generative AI, writing a lot of words is no longer impressive. The scarce human contribution has moved upstream.  I think things become more valuable:
+Thanks to generative AI, writing a lot of words is no longer impressive. The human contribution has moved upstream.  I think things become more valuable:
 
 - **Creativity**. Finding a fresh angle, not generating yet another variation on a theme.
-- **Clarity**. Articulating the essentials with alacrity. 
 - **Taste**. Saying no to almost everything, and yes to the one thing that belongs.
+- **Clarity**. Articulating the essentials with alacrity. 
 
-If you don't contribute at this level, you are basically a human doing the work of an AI harness, and you'll soon be replaced. That's not an argument against using LLMs — it's an argument for using them in their place. An LLM can be your army of researchers, reading everything so you don't have to. It can be a tireless sounding board, stress-testing ideas at 3am without complaint. It can fill forms, draft boilerplate, run experiments, generate options, and summarise the things that don't deserve your full attention. All of that is genuinely useful. What it cannot do is care about the right answer, notice what's missing, or make the call that matters. Keep those for yourself. Move upstream to where the goal gets set, the standard gets chosen, and the consequences get owned. Let the LLM carry the load. Don't let it carry you.
+If you don't contribute at this level, you are basically a human doing the work of an AI harness, and you'll soon be replaced. You should squeeze every drop of productivity out of your LLMs, but not at the expense of your own unique contribution. Your LLM can be your army of researchers, a tireless sounding board, an expert form-filler, a rapid experimenter, an automatic tester, a ruthless guardian of your inbox and calendar. But it is up to us as humans to make it work for us, not to think for us. We must stay involved at the creative level, decide what is important and what isn't, and what's just not for us. And we should want our colleagues and collaborators to achieve the same. 
 
+Here's a litmus test to help us stay on course. Hundreds of years ago, Blaise Pascal apologised *"I would have written a shorter letter, but I did not have the time."*  Out of respect for ourselves and each other, let's make sure we only send each other short letters from now on.
 
 ![Google's AI answers The Simpson's quote "Do you ever think anything you don't say?" with a hilarious lack of irony.](/images/2026/08/lotus-eaters-simpsons-google.png){: .captioned }
 
