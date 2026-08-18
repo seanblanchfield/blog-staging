@@ -14,69 +14,55 @@ There's a rapid change happening in our inboxes and channels. Suddenly, everythi
 
  I consider much of it glib gibberish, or "glibberish" for short. Everyone has a list, so here's my list of what I call **glibberisms**, the telltale rhetorical constructions that AI loves to write and humans are learning to hate:
 
-**The Colon Reveal**
-*"The product exists for one reason: to make complexity legible."*
-The dramatic punctuation performs an inference that has not established.
+- **The Colon Reveal**
+  *"The product exists for one reason: to make complexity legible."*
+  The dramatic punctuation performs an inference that has not established.
+- **The Wild Dash**
+  *"The stakes are high—we need to act."*
+  Uses an em dash as wildcard punctuation in place of any precise connective, allowing the sentence to avoid stating what logical relationship it is claiming.
 
-**The Wild Dash**
-*"The stakes are high—we need to act."*
-Uses an em dash as wildcard punctuation in place of any precise connective, allowing the sentence to avoid stating what logical relationship it is claiming.
-
-**The Pregnant Pause**
-*"The problem is no longer technical. It is existential."*
-A short declarative sentence lands after an ordinary claim to announce that something profound has just occurred. Works equally well with a dash.
-
-**The Metaphor Mixologist**
-*"We are scaling across parallel tracks over growing foundations."*
-Reaches for several metaphors at once that don't make sense together. You go *along* a track, not *across* it; tracks don't normally depend on foundations; foundations don't grow. A human in the physical universe feels the wrongness immediately. 
-
-**The Extinction Escalator**
-*"This is not merely a nuisance for one country. It could be a disaster for all humanity."*
-Drags every local consequence to the edge of a civilisational cliff.
-
-**The Cold-Open Carousel**
-*"The dam has cracked. The tide is turning. A sleeping giant has awakened."*
-Keeps beginning over with new scene-setting metaphors because none has started the argument.
-
-**Sentence Confetti**
-*"The issue? Trust. The answer? Governance. Simple. Powerful. Inevitable."*
-Scatters fragments around to simulate pace, conviction and importance.
-
-**The Bottomless Bottom Line**
-*"The short version… Bottom line up front… TL;DR… In one sentence…"* followed by five more paragraphs.
-Announces compression without deciding what can be omitted.
-
-**The Gen Cliché**
-*"We need a durable, load-bearing foundation for a rapidly evolving landscape."*
-Adjectives that have gone from rare to cliché in less than 3 years.
-
-**The Honesty Declaration**
-*"Let me be honest with you. Honestly, that's on me. Sam put it honestly when it said X."*
-Asserts trustworthiness instead of earning it. Honesty is assumed in good-faith discourse; announcing it implies the rest is lies. 
-
-**The Reluctant Concession**
-*"I'll be the first to admit this isn't perfect."*
-Performs humility without revising anything. Signals open-mindedness rather than demonstrating it by actually updating a position.
-
-**The Authenticity Sticker**
-*"This is not speculation. It has been verified by multiple independent sources."*
-Awards the claim a certificate of reliability instead of showing the evidence.
-
-**The Commentary Track**
-*"That is not an exaggeration. It is the uncomfortable truth."*
-Tells the reader how to judge the previous claim instead of letting it stand or fall on its own merit.
-
-**The Structure Trailer**
-*"Three facts. Ninety-three words. Only one heading."*
-Narrates the structure of the material rather than the subject. Often seen in AI slide decks.
-
-**The Two-Sided Bet**
-*"The project is making meaningful progress, although challenges may require prioritisation."*
-Preserves both outcomes instead of taking a position. As an investor would say, you can't take both sides of the same bet and win.
-
-**The Intersection Roundabout**
-*"The company sits at the intersection of AI, sovereignty and the future of work."*
-Offers plenty of impressive approaches, but no exit.
+- **The Pregnant Pause**
+  *"The problem is no longer technical. It is existential."*
+  A short declarative sentence lands after an ordinary claim to announce that something profound has just occurred. Works equally well with a dash.
+- **The Metaphor Mixologist**
+  *"We are scaling across parallel tracks over growing foundations."*
+  Reaches for several metaphors at once that don't make sense together. You go *along* a track, not *across* it; tracks don't normally depend on foundations; foundations don't grow. A human in the physical universe feels the wrongness immediately.
+- **The Extinction Escalator**
+  *"This is not merely a nuisance for one country. It could be a disaster for all humanity."*
+  Drags every local consequence to the edge of a civilisational cliff.
+- **The Cold-Open Carousel**
+  *"The dam has cracked. The tide is turning. A sleeping giant has awakened."*
+  Keeps beginning over with new scene-setting metaphors because none has started the argument.
+- **Sentence Confetti**
+  *"The issue? Trust. The answer? Governance. Simple. Powerful. Inevitable."*
+  Scatters fragments around to simulate pace, conviction and importance.
+- **The Bottomless Bottom Line**
+  *"The short version… Bottom line up front… TL;DR… In one sentence…"* followed by five more paragraphs.
+  Announces compression without deciding what can be omitted.
+- **The Gen Cliché**
+  *"We need a durable, load-bearing foundation for a rapidly evolving landscape."*
+  Adjectives that have gone from rare to cliché in less than 3 years.
+- **The Honesty Declaration**
+  *"Let me be honest with you. Honestly, that's on me. Sam put it honestly when it said X."*
+  Asserts trustworthiness instead of earning it. Honesty is assumed in good-faith discourse; announcing it implies the rest is lies.
+- **The Reluctant Concession**
+  *"I'll be the first to admit this isn't perfect."*
+  Performs humility without revising anything. Signals open-mindedness rather than demonstrating it by actually updating a position.
+- **The Authenticity Sticker**
+  *"This is not speculation. It has been verified by multiple independent sources."*
+  Awards the claim a certificate of reliability instead of showing the evidence.
+- **The Commentary Track**
+  *"That is not an exaggeration. It is the uncomfortable truth."*
+  Tells the reader how to judge the previous claim instead of letting it stand or fall on its own merit.
+- **The Structure Trailer**
+  *"Three facts. Ninety-three words. Only one heading."*
+  Narrates the structure of the material rather than the subject. Often seen in AI slide decks.
+- **The Two-Sided Bet**
+  *"The project is making meaningful progress, although challenges may require prioritisation."*
+  Preserves both outcomes instead of taking a position. As an investor would say, you can't take both sides of the same bet and win.
+- **The Intersection Roundabout**
+  *"The company sits at the intersection of AI, sovereignty and the future of work."*
+  Offers plenty of impressive approaches, but no exit.
 
 [There is empirical evidence that LLMs](https://arxiv.org/pdf/2406.07016) have acquired their own vocabulary, with sudden surges in words like *delve, intricate, pivotal, crucial, comprehensive* and *underscore* in post-gen-AI scientific literature. But the deeper pattern is in the stagecraft. The prose continually narrates itself, announcing that something significant, rigorous, surprising, balanced or concise is happening. Often, the announcement is the only evidence that it happened. These glibberisms aren't just bad style, they are a cover-up for the absence of real thinking.
 
