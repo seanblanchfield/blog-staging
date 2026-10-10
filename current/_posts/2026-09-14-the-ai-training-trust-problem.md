@@ -71,12 +71,19 @@ For non-US organisations, jurisdiction adds another layer. The US CLOUD Act lets
 - Examine the training rights, data retention, metadata use, indemnities and liability caps in the license agreements with each data processor.
 - Assess whether foreign-government access to your data is a risk for you.
 - Ensure you are in a model-neutral posture, with the ability to switch to open-weight models as necessary. To do this, deploy an AI gateway, provision it with a rich blend of proprietary and open-weight models, and block direct network access to AI providers so that all AI consumption must run through the gateway.
-- Move AI workloads according to their sensitivity. Let me propose a four-tier framework:
-  1. **Most sensitive (lowest intelligence)**: open-weight AI models running on self-hosted hardware
-  2. **Highly sensitive (high intelligence)**: frontier open-weight models running on neoclouds that offer data handling guarantees (e.g., I use [TensorX](https://tensorx.ai)).
-  3. **Sensitive (frontier-intelligence)**: proprietary frontier models running on hyperscaler partners like AWS and Azure. 
-  4. **Least sensitive (frontier-intelligence)**: Direct on major AI lab infrastructure. 
+- Place each AI workload according to the sensitivity of the data it handles. There are five common ways to run inference, but only four belong inside an enterprise AI data perimeter.
 
-It is critical to adopt a model neutral posture, so you can use the right model for each job. This will maintain your choice and sovereignty, reduce your costs, and allow you to leverage future fine-tuned or merged models. You will probably want the leading proprietary models (currently: Fable 5.1, Astra) for novel problems, But you should capture the resulting workflows, and hand those workflows to open-weight models that can cheaply, reliably and securely handle the real operational load.
+![Five levels of AI hosting risk, from personal AI accounts outside the enterprise perimeter to open-weight models on owner-controlled hardware.](/images/2026/10/enterprise-ai-inference-risk-ladder.svg){: .captioned }
+
+Personal AI lab accounts sit outside the framework. The organisation has no contract, no visibility, no reliable deletion rights and no way to govern what employees upload. Company data should not go there at all. Eliminating that route leaves a four-tier workload-placement model:
+
+| Workload tier | Where inference runs | What it buys you |
+|---|---|---|
+| **Most sensitive** | Open-weight models on hardware you own or directly control | Maximum control over data, network access, logging and retention. You carry the operational burden and may accept lower model intelligence. |
+| **Highly sensitive** | Open-weight models on independent hosting providers | Strong models without giving the model developer your data. The host can offer contractual, technical and physical separation, although you must still trust its controls. |
+| **Sensitive** | Proprietary frontier models through hyperscalers such as AWS and Azure | More separation from the AI lab and mature enterprise controls. But the hyperscalers and model labs remain commercially, technically and sometimes financially entangled. |
+| **Least sensitive** | Enterprise inference directly on major AI lab infrastructure | The best direct access to frontier models, backed by no-training terms and enterprise administration, but still dependent on the lab's contracts, systems and incentives. |
+
+This is not a simple security ladder where less risk always means better. Control usually rises as model choice narrows and operational cost increases. The right answer is a model-neutral posture: use the most capable environment justified by each workload, capture the resulting workflows, then move repeatable operational work towards open-weight models that can run more cheaply, reliably and securely.
 
 The next time a vendor waves an enterprise agreement at you, ask: if they trained on your data, would you even know?
