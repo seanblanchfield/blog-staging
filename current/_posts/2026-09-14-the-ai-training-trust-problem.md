@@ -28,7 +28,7 @@ AI transcripts are goldmines. They are a walkthrough of how employees gets their
 
 The instinctive response is to block unsanctioned AI at the corporate network level. But as long as employees have personal devices, they can photograph their screen directly from their favourite AI app (fun experiment: next time you're talking to a tech-forward friend who works in a regulated industry, ask to see their photos app - it will be full of photos of their laptop screen). 
 
-[INSERT PICTURE: Photo of an iphone photo app in a social setting, full of pictures of laptop screens full of text. Subtitled: Shadow AI in One Picture]
+![An entire photo library of screens full of work, photographed to feed AI chats. Illustrative image.](/images/2026/10/shadow-ai-in-one-picture.jpg){: .captioned }
 
 The only known way to stop shadow AI is to provide a better alternative. You can do this by making sure the sanctioned AI platform is hooked up to the data and APIs that people need to get the work done. Microsoft Copilot alone will not beat ChatGPT or Claude. But if Copilot is the only way to access corporate data, skills and tools, people will switch to it. Even better, launch an in-house AI platform so you get a compounding context layer that makes the AI more capable and reliable every day.
 
