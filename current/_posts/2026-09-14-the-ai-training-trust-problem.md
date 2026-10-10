@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "The AI Training Trust Problem"
+title: "The Enterprise AI Data Perimeter"
 date: 2026-09-14 09:00:00 +0100
 categories: [current, ai, security, strategy]
 image: /images/2026/09/ai-2-tier-system.jpg
-excerpt: "The AI industry has a two-tier trust system. Enterprise customers get a contractual promise to not train on data, but personal customers don't. Even on paid personal accounts, AI trains on your data by default. This has a lot of people on edge, not least because so many employees are using their personal AI accounts for work."
+excerpt: "AI data risk extends far beyond whether a provider trains on your prompts. Companies now need to govern personal AI accounts, SaaS vendors, metadata, agents, data residency, foreign access, and the infrastructure running each workload."
 draft: true
 ---
 
@@ -52,7 +52,7 @@ Legal teams reach for indemnities at this point. AI indemnities typically cover 
 
 Trust is in short supply in AI land. The major labs face litigation and allegations over the use of copyrighted material in training. I recently had a drink with a friend who is a partner at a large private equity firm. When I suggested that the major labs' enterprise agreements protect customers from training on their data, he practically spat out his wine. His view was that trust is inconceivable: the incentives are more powerful than promises, and there is no way to verify what actually happens to the data. The classic Russian proverb applies: *doveryai, no proveryai*... *trust, but verify*. But there is no way to verify.
 
-[INSERT PICTURE: Cartoon of Sean and PE guy. Subtitle: Trust, but Verify.]
+![Sean and a private-equity investor discussing whether enterprise AI agreements can be trusted.](/images/2026/10/trust-but-verify.jpg){: .captioned }
 
 A choice you can make is to rent AI from someone who isn't an AI lab. For example, you can get OpenAI and Anthopic models from Microsoft Azure or Amazon Bedrock. This puts some distance between your data and the companies whose future existence depends on vacuuming up new training data. That is some reaassurance, but we must remember that the hyperscalers and AI labs are deeply commercially intertwined, and there is still a bit of faith required. 
 
