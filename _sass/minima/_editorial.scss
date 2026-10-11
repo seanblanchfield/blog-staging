@@ -583,10 +583,14 @@ $rule:           rgba(0,0,0,0.1);
   background: none;
   color: inherit;
 
-  h3 {
-    margin: 0;
-    font-size: 0.94rem;
-    line-height: 1.2;
+  // .post-content prefix outranks the theme's `article .post-content h3`
+  // rule, which otherwise forces a 45px margin-top onto the title.
+  .post-content & {
+    h3 {
+      margin: 0;
+      font-size: 0.94rem;
+      line-height: 1.2;
+    }
   }
 }
 
@@ -658,8 +662,10 @@ $rule:           rgba(0,0,0,0.1);
 
 @media screen and (min-width: $on-laptop) {
   .ai-route-card {
+    // Roughly 25 / 50 / 25: narrow tier column, wide route copy, narrow
+    // metrics column.
     display: grid;
-    grid-template-columns: minmax(13rem, 0.75fr) minmax(0, 1.8fr);
+    grid-template-columns: minmax(9.5rem, 0.55fr) minmax(0, 2fr) minmax(8rem, 0.6fr);
     align-items: center;
   }
 
@@ -669,7 +675,7 @@ $rule:           rgba(0,0,0,0.1);
 
   .ai-route-card__body {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 12.5rem;
+    grid-template-columns: minmax(0, 1fr) 8.5rem;
     align-items: center;
     gap: 0.65rem;
     padding: 0.45rem 0.65rem;
@@ -677,9 +683,12 @@ $rule:           rgba(0,0,0,0.1);
   }
 
   .ai-route-card__metrics {
+    align-self: center;
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-    margin-top: 0;
+    gap: 0.3rem;
+    margin: 0;
+    padding: 0.45rem 0.65rem;
   }
 }
 

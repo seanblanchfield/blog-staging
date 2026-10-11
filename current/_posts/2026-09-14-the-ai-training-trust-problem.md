@@ -93,10 +93,10 @@ There are five common routes for AI inference, but only four belong inside an en
         <p><strong>Route:</strong> Public information only. No company data.</p>
         <p class="ai-route-card__note">No company contract, visibility, reliable deletion rights or control over uploads. Consumer terms may permit training or broader reuse.</p>
       </div>
-      <div class="ai-route-card__metrics">
+    </div>
+    <div class="ai-route-card__metrics">
         <div class="ai-route-metric"><span>Cost</span><strong>N/A</strong></div>
         <div class="ai-route-metric"><span>Intelligence</span><strong>High</strong></div>
-      </div>
     </div>
   </section>
 
@@ -110,10 +110,10 @@ There are five common routes for AI inference, but only four belong inside an en
         <p><strong>Route:</strong> Least-sensitive company workloads.</p>
         <p class="ai-route-card__note">Contractual no-training terms and company admin controls apply, but the lab processes your prompts directly and holds every transcript.</p>
       </div>
-      <div class="ai-route-card__metrics">
+    </div>
+    <div class="ai-route-card__metrics">
         <div class="ai-route-metric"><span>Cost</span><strong>High</strong></div>
         <div class="ai-route-metric"><span>Intelligence</span><strong>High</strong></div>
-      </div>
     </div>
   </section>
 
@@ -127,10 +127,10 @@ There are five common routes for AI inference, but only four belong inside an en
         <p><strong>Route:</strong> Sensitive workloads that need frontier intelligence.</p>
         <p class="ai-route-card__note">E.g. AWS and Azure hold your data instead of the AI lab, but they are commercially and strategically close to them.</p>
       </div>
-      <div class="ai-route-card__metrics">
+    </div>
+    <div class="ai-route-card__metrics">
         <div class="ai-route-metric"><span>Cost</span><strong>High</strong></div>
         <div class="ai-route-metric"><span>Intelligence</span><strong>High</strong></div>
-      </div>
     </div>
   </section>
 
@@ -144,10 +144,10 @@ There are five common routes for AI inference, but only four belong inside an en
         <p><strong>Route:</strong> Highly sensitive workloads that still need strong intelligence.</p>
         <p class="ai-route-card__note">The host does not own the model. Contracts, isolated infrastructure and physical separation can reduce exposure further.</p>
       </div>
-      <div class="ai-route-card__metrics">
+    </div>
+    <div class="ai-route-card__metrics">
         <div class="ai-route-metric"><span>Cost</span><strong>Medium</strong></div>
         <div class="ai-route-metric"><span>Intelligence</span><strong>Medium</strong></div>
-      </div>
     </div>
   </section>
 
@@ -161,10 +161,10 @@ There are five common routes for AI inference, but only four belong inside an en
         <p><strong>Route:</strong> The most sensitive data and mature, repeatable workflows.</p>
         <p class="ai-route-card__note">You control data, network access, logging and retention, but carry the capital and operational burden.</p>
       </div>
-      <div class="ai-route-card__metrics">
+    </div>
+    <div class="ai-route-card__metrics">
         <div class="ai-route-metric"><span>Cost</span><strong>Low at scale</strong></div>
         <div class="ai-route-metric"><span>Intelligence</span><strong>Low</strong></div>
-      </div>
     </div>
   </section>
 </div>
