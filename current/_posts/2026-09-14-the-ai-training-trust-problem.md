@@ -71,19 +71,146 @@ For non-US organisations, jurisdiction adds another layer. The US CLOUD Act lets
 - Examine the training rights, data retention, metadata use, indemnities and liability caps in the license agreements with each data processor.
 - Assess whether foreign-government access to your data is a risk for you.
 - Ensure you are in a model-neutral posture, with the ability to switch to open-weight models as necessary. To do this, deploy an AI gateway, provision it with a rich blend of proprietary and open-weight models, and block direct network access to AI providers so that all AI consumption must run through the gateway.
-- Place each AI workload according to the sensitivity of the data it handles. There are five common ways to run inference, but only four belong inside an enterprise AI data perimeter.
 
-![Five levels of AI hosting risk, from personal AI accounts outside the enterprise perimeter to open-weight models on owner-controlled hardware.](/images/2026/10/enterprise-ai-inference-risk-ladder.svg){: .captioned }
+## How to route sensitive AI workloads
 
-Personal AI lab accounts sit outside the framework. The organisation has no contract, no visibility, no reliable deletion rights and no way to govern what employees upload. Company data should not go there at all. Eliminating that route leaves a four-tier workload-placement model:
+Most model routing focuses on cost, speed and model quality. Those matter, but only after you decide where the data is safe. Route each workload primarily by data sensitivity and control requirements. Then choose the best model, price and performance available inside that boundary.
 
-| Workload tier | Where inference runs | What it buys you |
-|---|---|---|
-| **Most sensitive** | Open-weight models on hardware you own or directly control | Maximum control over data, network access, logging and retention. You carry the operational burden and may accept lower model intelligence. |
-| **Highly sensitive** | Open-weight models on independent hosting providers | Strong models without giving the model developer your data. The host can offer contractual, technical and physical separation, although you must still trust its controls. |
-| **Sensitive** | Proprietary frontier models through hyperscalers such as AWS and Azure | More separation from the AI lab and mature enterprise controls. But the hyperscalers and model labs remain commercially, technically and sometimes financially entangled. |
-| **Least sensitive** | Enterprise inference directly on major AI lab infrastructure | The best direct access to frontier models, backed by no-training terms and enterprise administration, but still dependent on the lab's contracts, systems and incentives. |
+There are five common routes for AI inference, but only four belong inside an enterprise AI data perimeter:
 
-This is not a simple security ladder where less risk always means better. Control usually rises as model choice narrows and operational cost increases. The right answer is a model-neutral posture: use the most capable environment justified by each workload, capture the resulting workflows, then move repeatable operational work towards open-weight models that can run more cheaply, reliably and securely.
+<div class="ai-routing-matrix">
+  <div class="ai-routing-matrix__rule">
+    <strong>Routing priority:</strong> data security first; model intelligence, cost and efficiency second.
+  </div>
+
+  <section class="ai-route-card ai-route-card--prohibited">
+    <header class="ai-route-card__header">
+      <span class="ai-route-card__tier">Outside the perimeter</span>
+      <h3>Personal AI lab accounts</h3>
+    </header>
+    <div class="ai-route-card__details">
+      <div class="ai-route-card__cell">
+        <h4>Data security</h4>
+        <p>No company contract, visibility, reliable deletion rights or control over uploads. Consumer terms may permit training or broader reuse.</p>
+      </div>
+      <div class="ai-route-card__cell">
+        <h4>Model intelligence</h4>
+        <p>Direct access to frontier models, but outside company governance.</p>
+      </div>
+      <div class="ai-route-card__cell">
+        <h4>Cost and operations</h4>
+        <p>Cheap and convenient for the employee; hidden and potentially expensive risk for the organisation.</p>
+      </div>
+      <div class="ai-route-card__cell ai-route-card__cell--decision">
+        <h4>Route</h4>
+        <p><strong>Public information only. Eliminate for company data.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ai-route-card ai-route-card--tier-4">
+    <header class="ai-route-card__header">
+      <span class="ai-route-card__tier">Tier 4 · Least sensitive</span>
+      <h3>Enterprise AI lab inference</h3>
+    </header>
+    <div class="ai-route-card__details">
+      <div class="ai-route-card__cell">
+        <h4>Data security</h4>
+        <p>No-training terms and administrative controls, but the lab owns the model, code and infrastructure. You rely on its systems, incentives and promises.</p>
+      </div>
+      <div class="ai-route-card__cell">
+        <h4>Model intelligence</h4>
+        <p>Fastest direct access to the strongest proprietary models and newest features.</p>
+      </div>
+      <div class="ai-route-card__cell">
+        <h4>Cost and operations</h4>
+        <p>Low operational burden; commercial pricing and provider lock-in.</p>
+      </div>
+      <div class="ai-route-card__cell ai-route-card__cell--decision">
+        <h4>Route</h4>
+        <p>Least-sensitive company workloads that benefit from frontier intelligence.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ai-route-card ai-route-card--tier-3">
+    <header class="ai-route-card__header">
+      <span class="ai-route-card__tier">Tier 3 · Sensitive</span>
+      <h3>Proprietary models through a hyperscaler</h3>
+    </header>
+    <div class="ai-route-card__details">
+      <div class="ai-route-card__cell">
+        <h4>Data security</h4>
+        <p>The hyperscaler adds contractual and technical separation from the AI lab, but the companies remain commercially, technically and sometimes financially entangled.</p>
+      </div>
+      <div class="ai-route-card__cell">
+        <h4>Model intelligence</h4>
+        <p>Frontier proprietary models, sometimes with a delay or narrower feature set.</p>
+      </div>
+      <div class="ai-route-card__cell">
+        <h4>Cost and operations</h4>
+        <p>Mature enterprise controls and usage-based pricing; more architecture and integration work.</p>
+      </div>
+      <div class="ai-route-card__cell ai-route-card__cell--decision">
+        <h4>Route</h4>
+        <p>Sensitive workloads that still require frontier intelligence.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ai-route-card ai-route-card--tier-2">
+    <header class="ai-route-card__header">
+      <span class="ai-route-card__tier">Tier 2 · Highly sensitive</span>
+      <h3>Open-weight models on independent hosts</h3>
+    </header>
+    <div class="ai-route-card__details">
+      <div class="ai-route-card__cell">
+        <h4>Data security</h4>
+        <p>The host does not own the model and has less reason to use customer data for model development. Contracts, isolated infrastructure and physical separation can reduce exposure further. You still trust the host's controls.</p>
+      </div>
+      <div class="ai-route-card__cell">
+        <h4>Model intelligence</h4>
+        <p>Strong open-weight models, usually behind the best proprietary models on novel or difficult work.</p>
+      </div>
+      <div class="ai-route-card__cell">
+        <h4>Cost and operations</h4>
+        <p>Competitive inference cost and less model lock-in; you must select, test and operate the models.</p>
+      </div>
+      <div class="ai-route-card__cell ai-route-card__cell--decision">
+        <h4>Route</h4>
+        <p>Highly sensitive workloads that need strong intelligence without sending data to a model lab.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ai-route-card ai-route-card--tier-1">
+    <header class="ai-route-card__header">
+      <span class="ai-route-card__tier">Tier 1 · Most sensitive</span>
+      <h3>Open-weight models on owner-controlled hardware</h3>
+    </header>
+    <div class="ai-route-card__details">
+      <div class="ai-route-card__cell">
+        <h4>Data security</h4>
+        <p>You control data, network access, logging and retention. This provides the strongest separation and the smallest provider trust boundary.</p>
+      </div>
+      <div class="ai-route-card__cell">
+        <h4>Model intelligence</h4>
+        <p>Limited by the models and hardware you can run; often enough for narrow, repeatable work.</p>
+      </div>
+      <div class="ai-route-card__cell">
+        <h4>Cost and operations</h4>
+        <p>Highest operational burden and capital cost, but predictable marginal cost at scale.</p>
+      </div>
+      <div class="ai-route-card__cell ai-route-card__cell--decision">
+        <h4>Route</h4>
+        <p>The most sensitive workloads and mature workflows that can trade general intelligence for control.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+Personal AI accounts are not the riskiest tier. They sit outside the governed system entirely. Eliminate that route, then use an AI gateway to send each workload to the most capable environment permitted by its data. Only then optimise for cost, latency and efficiency.
+
+This is why a model-neutral posture matters. Use frontier models to solve novel problems where the data permits it, capture the resulting workflows, then move repeatable operational work towards open-weight models that can run more cheaply, reliably and securely.
 
 The next time a vendor waves an enterprise agreement at you, ask: if they trained on your data, would you even know?
