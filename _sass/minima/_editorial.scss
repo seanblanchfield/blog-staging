@@ -588,7 +588,7 @@ $rule:           rgba(0,0,0,0.1);
   .post-content & {
     h3 {
       margin: 0;
-      font-size: 0.94rem;
+      font-size: 1rem;
       line-height: 1.2;
     }
   }
@@ -674,10 +674,6 @@ $rule:           rgba(0,0,0,0.1);
   }
 
   .ai-route-card__body {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 8.5rem;
-    align-items: center;
-    gap: 0.65rem;
     padding: 0.45rem 0.65rem;
     border-left: 1px solid rgba(255,255,255,0.08);
   }
