@@ -101,7 +101,8 @@
     &--tier-1     { --route-color: #246b9e; --route-tint: rgba(36,107,158,0.08); }
   }
 
-  .ai-route-card__header {
+  .ai-route-card__header,
+  .ai-route-card__body {
     border-color: rgba(0,0,0,0.10);
   }
 

@@ -83,10 +83,10 @@ There are five common routes for AI inference, but only four belong inside an en
   </div>
 
   <section class="ai-route-card ai-route-card--prohibited">
-    <header class="ai-route-card__header">
+    <div class="ai-route-card__header">
       <span class="ai-route-card__tier">Outside the perimeter</span>
       <h3>Personal AI</h3>
-    </header>
+    </div>
     <div class="ai-route-card__body">
       <div class="ai-route-card__route">
         <p><strong>Route:</strong> Public information only. No company data.</p>
@@ -100,10 +100,10 @@ There are five common routes for AI inference, but only four belong inside an en
   </section>
 
   <section class="ai-route-card ai-route-card--tier-4">
-    <header class="ai-route-card__header">
+    <div class="ai-route-card__header">
       <span class="ai-route-card__tier">Tier 4 · Least sensitive</span>
       <h3>Enterprise AI lab</h3>
-    </header>
+    </div>
     <div class="ai-route-card__body">
       <div class="ai-route-card__route">
         <p><strong>Route:</strong> Least-sensitive company workloads.</p>
@@ -117,10 +117,10 @@ There are five common routes for AI inference, but only four belong inside an en
   </section>
 
   <section class="ai-route-card ai-route-card--tier-3">
-    <header class="ai-route-card__header">
+    <div class="ai-route-card__header">
       <span class="ai-route-card__tier">Tier 3 · Sensitive</span>
       <h3>Proprietary models through a hyperscaler</h3>
-    </header>
+    </div>
     <div class="ai-route-card__body">
       <div class="ai-route-card__route">
         <p><strong>Route:</strong> Sensitive workloads that need frontier intelligence.</p>
@@ -134,10 +134,10 @@ There are five common routes for AI inference, but only four belong inside an en
   </section>
 
   <section class="ai-route-card ai-route-card--tier-2">
-    <header class="ai-route-card__header">
+    <div class="ai-route-card__header">
       <span class="ai-route-card__tier">Tier 2 · Highly sensitive</span>
       <h3>Open-weight models on independent hosts</h3>
-    </header>
+    </div>
     <div class="ai-route-card__body">
       <div class="ai-route-card__route">
         <p><strong>Route:</strong> Highly sensitive workloads that still need strong intelligence.</p>
@@ -151,10 +151,10 @@ There are five common routes for AI inference, but only four belong inside an en
   </section>
 
   <section class="ai-route-card ai-route-card--tier-1">
-    <header class="ai-route-card__header">
+    <div class="ai-route-card__header">
       <span class="ai-route-card__tier">Tier 1 · Most sensitive</span>
       <h3>Open-weight models on owner-controlled hardware</h3>
-    </header>
+    </div>
     <div class="ai-route-card__body">
       <div class="ai-route-card__route">
         <p><strong>Route:</strong> The most sensitive data and mature, repeatable workflows.</p>
