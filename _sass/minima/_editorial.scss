@@ -572,7 +572,7 @@ $rule:           rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.3rem;
+  gap: 0.12rem;
   padding: 0.5rem 0.65rem 0.25rem;
 
   // The base theme styles every article <header> as a 300px featured-image
@@ -626,7 +626,7 @@ $rule:           rgba(0,0,0,0.1);
 
 .ai-route-card__metrics {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.3rem;
   margin-top: 0.4rem;
 }
@@ -678,7 +678,7 @@ $rule:           rgba(0,0,0,0.1);
 
   .ai-route-card__metrics {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr);
     margin-top: 0;
   }
 }
