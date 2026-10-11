@@ -584,6 +584,8 @@ $rule:           rgba(0,0,0,0.1);
 
   h3 {
     margin: 0;
+    flex: 1;
+    min-width: 0;
     font-size: 0.94rem;
     line-height: 1.2;
   }
@@ -655,7 +657,7 @@ $rule:           rgba(0,0,0,0.1);
   }
 }
 
-@media screen and (min-width: $on-palm) {
+@media screen and (min-width: $on-laptop) {
   .ai-route-card {
     display: grid;
     grid-template-columns: minmax(13rem, 0.75fr) minmax(0, 1.8fr);

@@ -3,6 +3,7 @@ layout: post
 title: "The Enterprise AI Data Perimeter"
 date: 2026-09-14 09:00:00 +0100
 categories: [current, ai, security, strategy]
+image: /images/2026/09/ai-2-tier-system.jpg
 excerpt: "AI data risk extends far beyond whether a provider trains on your prompts. Companies now need to govern personal AI accounts, SaaS vendors, metadata, agents, data residency, foreign access, and the infrastructure running each workload."
 draft: true
 ---
@@ -107,7 +108,7 @@ There are five common routes for AI inference, but only four belong inside an en
     <div class="ai-route-card__body">
       <div class="ai-route-card__route">
         <p><strong>Route:</strong> Least-sensitive company workloads.</p>
-        <p class="ai-route-card__note">No-training terms and company controls, but the lab still owns the model, code and infrastructure.</p>
+        <p class="ai-route-card__note">Contractual no-training terms and company admin controls apply, but the lab processes your prompts directly and holds every transcript.</p>
       </div>
       <div class="ai-route-card__metrics">
         <div class="ai-route-metric"><span>Cost</span><strong>High</strong></div>
@@ -124,7 +125,7 @@ There are five common routes for AI inference, but only four belong inside an en
     <div class="ai-route-card__body">
       <div class="ai-route-card__route">
         <p><strong>Route:</strong> Sensitive workloads that need frontier intelligence.</p>
-        <p class="ai-route-card__note">AWS, Azure and peers add separation from the model lab, but the companies remain technically and commercially entangled.</p>
+        <p class="ai-route-card__note">E.g. AWS and Azure hold your data instead of the AI lab, but they are commercially and strategically close to them.</p>
       </div>
       <div class="ai-route-card__metrics">
         <div class="ai-route-metric"><span>Cost</span><strong>High</strong></div>
