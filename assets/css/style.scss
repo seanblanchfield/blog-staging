@@ -101,16 +101,20 @@
     &--tier-1     { --route-color: #246b9e; --route-tint: rgba(36,107,158,0.08); }
   }
 
-  .ai-route-card__header,
-  .ai-route-card__cell {
+  .ai-route-card__header {
     border-color: rgba(0,0,0,0.10);
   }
 
-  .ai-route-card__cell {
-    h4 { color: var(--route-color); }
+  .ai-route-card__route {
     p { color: #222; }
+    .ai-route-card__note { color: rgba(0,0,0,0.60); }
+  }
 
-    &--decision { background: rgba(255,255,255,0.42); }
+  .ai-route-metric {
+    border-color: rgba(0,0,0,0.10);
+    background: rgba(255,255,255,0.45);
+
+    span { color: rgba(0,0,0,0.56); }
   }
 
   .site-nav {

@@ -3,7 +3,6 @@ layout: post
 title: "The Enterprise AI Data Perimeter"
 date: 2026-09-14 09:00:00 +0100
 categories: [current, ai, security, strategy]
-image: /images/2026/09/ai-2-tier-system.jpg
 excerpt: "AI data risk extends far beyond whether a provider trains on your prompts. Companies now need to govern personal AI accounts, SaaS vendors, metadata, agents, data residency, foreign access, and the infrastructure running each workload."
 draft: true
 ---
@@ -80,30 +79,22 @@ There are five common routes for AI inference, but only four belong inside an en
 
 <div class="ai-routing-matrix">
   <div class="ai-routing-matrix__rule">
-    <strong>Routing priority:</strong> data security first; model intelligence, cost and efficiency second.
+    <strong>Route by data security first.</strong> Optimise for intelligence, cost and efficiency inside the permitted boundary.
   </div>
 
   <section class="ai-route-card ai-route-card--prohibited">
     <header class="ai-route-card__header">
       <span class="ai-route-card__tier">Outside the perimeter</span>
-      <h3>Personal AI lab accounts</h3>
+      <h3>Personal AI</h3>
     </header>
-    <div class="ai-route-card__details">
-      <div class="ai-route-card__cell">
-        <h4>Data security</h4>
-        <p>No company contract, visibility, reliable deletion rights or control over uploads. Consumer terms may permit training or broader reuse.</p>
+    <div class="ai-route-card__body">
+      <div class="ai-route-card__route">
+        <p><strong>Route:</strong> Public information only. No company data.</p>
+        <p class="ai-route-card__note">No company contract, visibility, reliable deletion rights or control over uploads. Consumer terms may permit training or broader reuse.</p>
       </div>
-      <div class="ai-route-card__cell">
-        <h4>Model intelligence</h4>
-        <p>Direct access to frontier models, but outside company governance.</p>
-      </div>
-      <div class="ai-route-card__cell">
-        <h4>Cost and operations</h4>
-        <p>Cheap and convenient for the employee; hidden and potentially expensive risk for the organisation.</p>
-      </div>
-      <div class="ai-route-card__cell ai-route-card__cell--decision">
-        <h4>Route</h4>
-        <p><strong>Public information only. Eliminate for company data.</strong></p>
+      <div class="ai-route-card__metrics">
+        <div class="ai-route-metric"><span>Cost</span><strong>N/A</strong></div>
+        <div class="ai-route-metric"><span>Intelligence</span><strong>High</strong></div>
       </div>
     </div>
   </section>
@@ -111,24 +102,16 @@ There are five common routes for AI inference, but only four belong inside an en
   <section class="ai-route-card ai-route-card--tier-4">
     <header class="ai-route-card__header">
       <span class="ai-route-card__tier">Tier 4 · Least sensitive</span>
-      <h3>Enterprise AI lab inference</h3>
+      <h3>Enterprise AI lab</h3>
     </header>
-    <div class="ai-route-card__details">
-      <div class="ai-route-card__cell">
-        <h4>Data security</h4>
-        <p>No-training terms and administrative controls, but the lab owns the model, code and infrastructure. You rely on its systems, incentives and promises.</p>
+    <div class="ai-route-card__body">
+      <div class="ai-route-card__route">
+        <p><strong>Route:</strong> Least-sensitive company workloads.</p>
+        <p class="ai-route-card__note">No-training terms and company controls, but the lab still owns the model, code and infrastructure.</p>
       </div>
-      <div class="ai-route-card__cell">
-        <h4>Model intelligence</h4>
-        <p>Fastest direct access to the strongest proprietary models and newest features.</p>
-      </div>
-      <div class="ai-route-card__cell">
-        <h4>Cost and operations</h4>
-        <p>Low operational burden; commercial pricing and provider lock-in.</p>
-      </div>
-      <div class="ai-route-card__cell ai-route-card__cell--decision">
-        <h4>Route</h4>
-        <p>Least-sensitive company workloads that benefit from frontier intelligence.</p>
+      <div class="ai-route-card__metrics">
+        <div class="ai-route-metric"><span>Cost</span><strong>High</strong></div>
+        <div class="ai-route-metric"><span>Intelligence</span><strong>High</strong></div>
       </div>
     </div>
   </section>
@@ -138,22 +121,14 @@ There are five common routes for AI inference, but only four belong inside an en
       <span class="ai-route-card__tier">Tier 3 · Sensitive</span>
       <h3>Proprietary models through a hyperscaler</h3>
     </header>
-    <div class="ai-route-card__details">
-      <div class="ai-route-card__cell">
-        <h4>Data security</h4>
-        <p>The hyperscaler adds contractual and technical separation from the AI lab, but the companies remain commercially, technically and sometimes financially entangled.</p>
+    <div class="ai-route-card__body">
+      <div class="ai-route-card__route">
+        <p><strong>Route:</strong> Sensitive workloads that need frontier intelligence.</p>
+        <p class="ai-route-card__note">AWS, Azure and peers add separation from the model lab, but the companies remain technically and commercially entangled.</p>
       </div>
-      <div class="ai-route-card__cell">
-        <h4>Model intelligence</h4>
-        <p>Frontier proprietary models, sometimes with a delay or narrower feature set.</p>
-      </div>
-      <div class="ai-route-card__cell">
-        <h4>Cost and operations</h4>
-        <p>Mature enterprise controls and usage-based pricing; more architecture and integration work.</p>
-      </div>
-      <div class="ai-route-card__cell ai-route-card__cell--decision">
-        <h4>Route</h4>
-        <p>Sensitive workloads that still require frontier intelligence.</p>
+      <div class="ai-route-card__metrics">
+        <div class="ai-route-metric"><span>Cost</span><strong>High</strong></div>
+        <div class="ai-route-metric"><span>Intelligence</span><strong>High</strong></div>
       </div>
     </div>
   </section>
@@ -163,22 +138,14 @@ There are five common routes for AI inference, but only four belong inside an en
       <span class="ai-route-card__tier">Tier 2 · Highly sensitive</span>
       <h3>Open-weight models on independent hosts</h3>
     </header>
-    <div class="ai-route-card__details">
-      <div class="ai-route-card__cell">
-        <h4>Data security</h4>
-        <p>The host does not own the model and has less reason to use customer data for model development. Contracts, isolated infrastructure and physical separation can reduce exposure further. You still trust the host's controls.</p>
+    <div class="ai-route-card__body">
+      <div class="ai-route-card__route">
+        <p><strong>Route:</strong> Highly sensitive workloads that still need strong intelligence.</p>
+        <p class="ai-route-card__note">The host does not own the model. Contracts, isolated infrastructure and physical separation can reduce exposure further.</p>
       </div>
-      <div class="ai-route-card__cell">
-        <h4>Model intelligence</h4>
-        <p>Strong open-weight models, usually behind the best proprietary models on novel or difficult work.</p>
-      </div>
-      <div class="ai-route-card__cell">
-        <h4>Cost and operations</h4>
-        <p>Competitive inference cost and less model lock-in; you must select, test and operate the models.</p>
-      </div>
-      <div class="ai-route-card__cell ai-route-card__cell--decision">
-        <h4>Route</h4>
-        <p>Highly sensitive workloads that need strong intelligence without sending data to a model lab.</p>
+      <div class="ai-route-card__metrics">
+        <div class="ai-route-metric"><span>Cost</span><strong>Medium</strong></div>
+        <div class="ai-route-metric"><span>Intelligence</span><strong>Medium</strong></div>
       </div>
     </div>
   </section>
@@ -188,22 +155,14 @@ There are five common routes for AI inference, but only four belong inside an en
       <span class="ai-route-card__tier">Tier 1 · Most sensitive</span>
       <h3>Open-weight models on owner-controlled hardware</h3>
     </header>
-    <div class="ai-route-card__details">
-      <div class="ai-route-card__cell">
-        <h4>Data security</h4>
-        <p>You control data, network access, logging and retention. This provides the strongest separation and the smallest provider trust boundary.</p>
+    <div class="ai-route-card__body">
+      <div class="ai-route-card__route">
+        <p><strong>Route:</strong> The most sensitive data and mature, repeatable workflows.</p>
+        <p class="ai-route-card__note">You control data, network access, logging and retention, but carry the capital and operational burden.</p>
       </div>
-      <div class="ai-route-card__cell">
-        <h4>Model intelligence</h4>
-        <p>Limited by the models and hardware you can run; often enough for narrow, repeatable work.</p>
-      </div>
-      <div class="ai-route-card__cell">
-        <h4>Cost and operations</h4>
-        <p>Highest operational burden and capital cost, but predictable marginal cost at scale.</p>
-      </div>
-      <div class="ai-route-card__cell ai-route-card__cell--decision">
-        <h4>Route</h4>
-        <p>The most sensitive workloads and mature workflows that can trade general intelligence for control.</p>
+      <div class="ai-route-card__metrics">
+        <div class="ai-route-metric"><span>Cost</span><strong>Low at scale</strong></div>
+        <div class="ai-route-metric"><span>Intelligence</span><strong>Low</strong></div>
       </div>
     </div>
   </section>

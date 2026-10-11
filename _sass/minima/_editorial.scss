@@ -533,32 +533,32 @@ $rule:           rgba(0,0,0,0.1);
 }
 
 // ─── AI workload routing matrix ────────────────────────────────────────────────
-// Mobile-first: each route is a labelled card; details become a 2×2 grid once
-// there is enough room. Colour reinforces the risk label but never replaces it.
+// Mobile-first: route copy plus two scored metrics. Colour reinforces the tier
+// label but never carries meaning on its own.
 .ai-routing-matrix {
-  margin: 1.75rem 0 2rem;
+  margin: 1.5rem 0 2rem;
   font-family: $sans-ui;
 }
 
 .ai-routing-matrix__rule {
-  margin-bottom: 1rem;
-  padding: 0.9rem 1rem;
+  margin-bottom: 0.8rem;
+  padding: 0.75rem 0.9rem;
   border: 1px solid rgba(255,255,255,0.14);
-  border-left: 0.4rem solid $accent;
+  border-left: 0.35rem solid $accent;
   border-radius: 0.4rem;
   background: rgba(255,255,255,0.05);
-  font-size: 0.95rem;
-  line-height: 1.45;
+  font-size: 0.88rem;
+  line-height: 1.4;
 }
 
 .ai-route-card {
   --route-color: #718096;
   --route-tint: rgba(113,128,150,0.10);
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
   overflow: hidden;
   border: 1px solid rgba(255,255,255,0.12);
-  border-left: 0.5rem solid var(--route-color);
-  border-radius: 0.5rem;
+  border-left: 0.45rem solid var(--route-color);
+  border-radius: 0.45rem;
   background: var(--route-tint);
 
   &--prohibited { --route-color: #dc4c4c; --route-tint: rgba(220,76,76,0.12); }
@@ -569,82 +569,95 @@ $rule:           rgba(0,0,0,0.1);
 }
 
 .ai-route-card__header {
-  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.7rem 0.85rem;
   border-bottom: 1px solid rgba(255,255,255,0.10);
 
   h3 {
-    margin: 0.4rem 0 0;
-    font-size: 1.2rem;
+    margin: 0;
+    font-size: 1.05rem;
     line-height: 1.25;
   }
 }
 
 .ai-route-card__tier {
+  flex: 0 0 auto;
   display: inline-block;
-  padding: 0.2rem 0.55rem;
+  padding: 0.18rem 0.48rem;
   border-radius: 999px;
   background: var(--route-color);
   color: #fff;
-  font-size: 0.7rem;
+  font-size: 0.62rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
-  line-height: 1.4;
+  letter-spacing: 0.06em;
+  line-height: 1.35;
   text-transform: uppercase;
 }
 
-.ai-route-card__details {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
+.ai-route-card__body {
+  padding: 0.8rem 0.85rem;
 }
 
-.ai-route-card__cell {
-  padding: 1rem;
-  border-top: 1px solid rgba(255,255,255,0.08);
-
-  &:first-child { border-top: 0; }
-
-  h4 {
-    margin: 0 0 0.35rem;
-    color: var(--route-color);
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    line-height: 1.4;
-    text-transform: uppercase;
-  }
-
+.ai-route-card__route {
   p {
     margin: 0;
     font-family: $serif-reading;
-    font-size: 0.96rem;
-    line-height: 1.55;
+    font-size: 0.95rem;
+    line-height: 1.45;
   }
 
-  &--decision {
-    background: rgba(255,255,255,0.04);
+  .ai-route-card__note {
+    margin-top: 0.28rem;
+    color: rgba(255,255,255,0.58);
+    font-size: 0.76rem;
+    line-height: 1.42;
+  }
+}
+
+.ai-route-card__metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+.ai-route-metric {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 0.35rem;
+  background: rgba(0,0,0,0.10);
+
+  span {
+    color: rgba(255,255,255,0.55);
+    font-size: 0.64rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  strong {
+    color: var(--route-color);
+    font-size: 0.82rem;
+    line-height: 1.2;
   }
 }
 
 @media screen and (min-width: $on-palm) {
-  .ai-route-card__header {
-    display: flex;
+  .ai-route-card__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 15rem;
     align-items: center;
-    gap: 0.8rem;
-
-    h3 { margin: 0; }
+    gap: 1rem;
   }
 
-  .ai-route-card__details {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .ai-route-card__cell {
-    border-top: 1px solid rgba(255,255,255,0.08);
-
-    &:first-child,
-    &:nth-child(2) { border-top: 0; }
-
-    &:nth-child(even) { border-left: 1px solid rgba(255,255,255,0.08); }
+  .ai-route-card__metrics {
+    margin-top: 0;
   }
 }
 
