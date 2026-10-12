@@ -60,7 +60,7 @@ However, you will probably find you can't negotiate the standard terms offered. 
 
 Trust is in short supply in AI land. The major labs face litigation and allegations over training on copyrighted material, and seem generally willing to move-fast-and-break-society as they race to be the first to achieve super-intelligence.
 
-I recently had a drink with a friend who is a partner at a large private equity firm. When I suggested that the AI enterprise agreements protect customers from training on their data, he practically spat out his wine. His view was that trust is impossible: the incentives outweigh the promises, and there is no way to check what actually happens to our data. *Doveryai, no proveryai* as the Russians say. *Trust, but verify*. But there we have no way to verify.
+I recently had a drink with a friend who is a partner at a large private equity firm. When I suggested that the AI enterprise agreements protect customers from training on their data, he practically spat out his wine. His view was that trust is impossible: the incentives outweigh the promises, and there is no way to check what actually happens to our data. *Doveryai, no proveryai* as the Russians say. *Trust, but verify*. But we have no way to verify.
 
 ![Sean and friend debating whether enterprise AI agreements can be trusted.](/images/2026/10/trust-but-verify.jpg){: .captioned }
 
@@ -72,7 +72,7 @@ Perhaps a better alternative is to move sensitive inference to open-weight model
 
 ## Expect the unexpected 
 
-Even a perfect no-training clause doesn't stop hacking, insider access, misconfiguration, or accidental disclosure through an agent or connector. This summer, OpenAI disclosed that its own models hacked the company's training evaluation environment, secured root access, and then went on to hack HuggingFace. The other labs are rushing to disclose how out of control their own agent swarms are. The ability of agents to break out seems to now exceed the lab's ability to contain them. Who knows what they'll do next?
+Even a perfect no-training clause doesn't stop hacking, insider access, misconfiguration, or accidental disclosure through an agent or connector. This summer, OpenAI disclosed that its own models hacked the company's training evaluation environment, secured root access, and then went on to hack HuggingFace. The other labs are rushing to disclose how out of control their own agent swarms are. The ability of agents to break out now exceeds the labs' ability to contain them. Who knows what they'll do next?
 
 For non-US organisations, jurisdiction adds another complication. The US CLOUD Act lets American authorities compel a US provider to produce data even when it is stored in Europe. Apparently EU data residency doesn't protect you if the US provider can read the plaintext.
 
@@ -81,9 +81,9 @@ For non-US organisations, jurisdiction adds another complication. The US CLOUD A
 Enterprise no-training commitments don't satisfactorily address the all the risks. You need to adopt a blended strategy that balances risk and reward for each AI workload.
 
 - Ensure a **model-neutral posture**, with the ability to switch to open-weight models as necessary. To do this, deploy an AI gateway (there are various open source ones), provision it with a rich blend of proprietary and open-weight models, and block direct network access to AI providers so that all AI consumption must run through the gateway.
-- Eliminate shadow AI by outcompeting it with a sanctioned alternative that is intuitive for regular employees to use, is hooked up to the right systems and data so useful work can be automated in it, and which keeps the resulting company context layer accumulating inside your perimeter (you can talk to us at [Jentic](https://jentic.com) about this)
-- Inventory all the SaaS, AI and MCP companies that receive your data. Review their terms of service for no-training protections. Examine the training rights, data retention, metadata use, indemnities and liability caps in the license agreements with each data processor.
-- Assess whether foreign-government access to your data is a risk for you.
+- **Eliminate shadow AI** by outcompeting it with a sanctioned alternative that is intuitive for regular employees to use, is hooked up to the right systems and data so useful work can be automated in it, and which keeps the resulting company context layer accumulating inside your perimeter (you can talk to us at [Jentic](https://jentic.com) about this)
+- **Inventory every data processor.** Review all the SaaS, AI and MCP companies that receive your data. Examine their terms of service for no-training protections, along with training rights, data retention, metadata use, indemnities and liability caps.
+- **Assess foreign-government access** to your data.
 
 ## A framework for routing sensitive AI workloads
 
