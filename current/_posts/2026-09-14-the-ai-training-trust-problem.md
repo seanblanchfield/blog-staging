@@ -8,9 +8,7 @@ excerpt: "AI data risk extends far beyond whether a provider trains on your prom
 draft: true
 ---
 
-The AI industry has a two-tier trust system. Enterprise customers get a contractual promise to not train on data, but personal customers don't. 
-
-Enterprise customers get a contractual promise that their AI transcripts and uploads won't be used for model training. But this promise doesn't extend to paying or free personal accounts (although sometimes you can opt out).  The exact terms vary, but roughly speaking it's the same deal everywhere.
+The AI industry has a two-tier trust system. Enterprise customers get a contractual promise that their AI transcripts and uploads won't be used for model training. But this promise doesn't extend to paying or free personal accounts (although sometimes you can opt out).  The exact terms vary, but roughly speaking it's the same deal everywhere.
 
 This has a lot of CIOs on edge, not least because so many employees are using their personal AI accounts for work.
 
