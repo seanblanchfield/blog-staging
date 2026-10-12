@@ -34,11 +34,11 @@ Here's a fun experiment to try at home. Next time you're talking to a tech-forwa
 
 ![A phone full of photos of work laptop screens to feed AI chats](/images/2026/10/shadow-ai-in-one-picture.jpg){: .captioned }
 
-Banning AI, even on penalty of disciplinary procedures, doesn't work. Gen AI has billions of monthly active users. For these people, the old way of working has become menial, and is rejected based on self-respect and dignity. 
+Banning AI, even on penalty of disciplinary procedures, doesn't work. Gen AI has billions of monthly active users. For these people, the old way of working has become menial, and is rejected on the basis of self-respect and dignity. 
 
-The only way to stop shadow AI is to provide a better alternative. You can do this by making sure your sanctioned AI platform is hooked up to the data and APIs that people need to get the work done. Librechat or Microsoft Copilot alone will not beat ChatGPT or Claude. But when they are only way to access necessary data, skills and tools, people switch. 
+The only way to stop shadow AI is to provide a better alternative. You can do this by making sure your sanctioned AI platform is hooked up to the data and APIs that people need to get the work done. Librechat or Microsoft Copilot alone will not beat ChatGPT or Claude. But when they are only way to access necessary data, skills and tools, people will switch. 
 
-Even better, launch an in-house AI platform that creates a compounding context layer that makes the AI more capable and reliable every day.
+Even better, launch an in-house AI platform that creates a compounding context layer that makes the AI more capable and reliable every day (contact us at [Jentic](https://jentic.com) if you want to hear more about the multiplayer agent OS).
 
 ## Don't trust SaaS either
 
@@ -85,13 +85,13 @@ Enterprise no-training commitments don't satisfactorily address the all the risk
 - Ensure a **model-neutral posture**, with the ability to switch to open-weight models as necessary. To do this, deploy an AI gateway (there are various open source ones), provision it with a rich blend of proprietary and open-weight models, and block direct network access to AI providers so that all AI consumption must run through the gateway.
 - **Eliminate shadow AI** by outcompeting it with a sanctioned alternative that is intuitive for regular employees to use, is hooked up to the right systems and data so useful work can be automated in it, and which keeps the resulting company context layer accumulating inside your perimeter (you can talk to us at [Jentic](https://jentic.com) about this)
 - **Inventory every data processor.** Review all the SaaS, AI and MCP companies that receive your data. Examine their terms of service for no-training protections, along with training rights, data retention, metadata use, indemnities and liability caps.
-- **Assess foreign-government access** to your data.
+- Assess whether **foreign-government access** to your data is a concern you need to address.
 
 ## A framework for routing sensitive AI workloads
 
-Most model routing focuses on cost, speed and model quality. Those matter, but only after you decide where the data is safe. You should route each workload primarily by data sensitivity and control requirements. Then choose the best model, price and performance available inside that boundary.
+Most of the work to date on model routing focuses on cost, speed and model quality. Those matter, but only after you decide who you trust with what. You should route each workload primarily by data sensitivity and control requirements. Then choose the best model, price and performance available inside that boundary.
 
-There are five AI inference options that you can route work to, but only four belong inside an enterprise AI data perimeter:
+Here are five AI inference options that you can route work to:
 
 <div class="ai-routing-matrix">
   <div class="ai-routing-matrix__rule">
@@ -184,7 +184,7 @@ There are five AI inference options that you can route work to, but only four be
   </section>
 </div>
 
-Personal AI accounts sit outside the governed system entirely. Eliminate that route, then use an AI gateway to route each workload to the best AI model for the job that you trust with the data. 
+Personal AI accounts should sit outside the enterprise data perimeter entirely. Eliminate that route, then use an AI gateway to route each workload to the best AI model for the job, based on trust as well as cost and intelligence. 
 
 This is why a model-neutral posture matters. Use frontier models to solve hard and novel problems, capture the resulting workflows, then move repeatable operational work towards open-weight models that can run cheaply, reliably and securely.
 
