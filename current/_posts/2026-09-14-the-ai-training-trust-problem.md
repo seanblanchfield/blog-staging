@@ -8,7 +8,7 @@ excerpt: "AI data risk extends far beyond whether a provider trains on your prom
 draft: true
 ---
 
-The AI industry has a two-tier trust system. Enterprise customers get a contractual promise that their AI transcripts and uploads won't be used for model training. But this promise doesn't extend to paying or free personal accounts (although sometimes you can opt out).  The exact terms vary, but roughly speaking it's the same deal everywhere.
+The AI industry has a two-tier trust system. Enterprise customers get a contractual promise that their AI transcripts and uploads won't be used for model training. But this promise doesn't extend to paid or free personal accounts (although sometimes you can opt out).  The exact terms vary, but roughly speaking it's the same deal everywhere.
 
 This has a lot of CIOs on edge, not least because so many employees are using their personal AI accounts for work.
 
@@ -16,17 +16,19 @@ This has a lot of CIOs on edge, not least because so many employees are using th
 
 ## The Shadow AI dumpster fire
 
-*Shadow AI* means employees using unsanctioned personal AI accounts for their work. Microsoft and LinkedIn found that [78% of surveyed AI users bring their own AI tools to work](https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part), and Netskope found that [72% of enterprise generative-AI users access AI services through personal accounts](https://www.netskope.com/resources/cloud-and-threat-reports/cloud-and-threat-report-generative-ai-2025).
+*Shadow AI* means employees using unsanctioned personal AI accounts for their work. Microsoft and LinkedIn found that [78% of surveyed AI users bring their own AI tools to work](https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part).
 
 When an employee uploads customer data, commercial contracts, employee records or internal strategy into a personal AI account, the employer's contractual protections don't apply. The employer usually doesn't even know it's happening. They don't know what was disclosed, whether it constitutes a data leak, how likely it is to end up in next month's training set, how long it will be retained, or have any way to delete it. From an information security and personal data point of view, this is a flaming dumpster fire.
 
 Sooner or later, something very sensitive will go into the next training run, and be regurgitated in someone else's chatbot two months later.
 
+![78% of AI users bring their own AI to work, and it ends exactly the way you'd expect. Illustrative image.](/images/2026/10/byoai-dumpster-fire.jpg){: .captioned }
+
 AI transcripts are goldmines. They are a walkthrough of how employees gets their jobs done, a recipe book for everything your company makes or does. Satya Nadella (Microsoft CEO) referred to the [Reverse Information Paradox](https://snscratchpad.com/posts/reverse-information-paradox/). As your employees use AI, they essentially writing down step-by-step guides on how they do their jobs. The commercial know-how that took your company years or decades to build can end up training someone elses AI model, so it can be rented back to you, or worse, made cheaply available to your competitors and customers. AI-enablement when done wrong leads to self-commoditisation.
 
 ## You can't block shadow AI
 
-The first response is to block unsanctioned AI, so people can't use personal accounts on their laptops or on the wifi. But so long as employees have personal devices, they can photograph their screen from their favourite AI app. 
+The first response is to block unsanctioned AI, so people can't use personal accounts on their work laptops or on the wifi. But so long as employees have personal devices, they can photograph their screen from their favourite AI app. 
 
 Here's a fun experiment to try at home. Next time you're talking to a tech-forward friend who works in a regulated industry, ask to see their photos library. It might look something like this: 
 
