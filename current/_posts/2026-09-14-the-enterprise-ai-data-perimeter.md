@@ -5,7 +5,6 @@ date: 2026-09-14 09:00:00 +0100
 categories: [current, ai, security, strategy]
 image: /images/2026/09/ai-2-tier-system.jpg
 excerpt: "AI data risk extends far beyond whether a provider trains on your prompts. Companies now need to govern personal AI accounts, SaaS vendors, metadata, agents, data residency, foreign access, and the infrastructure running each workload."
-draft: true
 ---
 
 The AI industry has a two-tier trust system. Enterprise customers get a contractual promise that their AI transcripts and uploads won't be used for model training. But this promise doesn't extend to paid or free personal accounts (although sometimes you can opt out).  The exact terms vary, but roughly speaking it's the same deal everywhere.
